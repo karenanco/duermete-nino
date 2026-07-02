@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-gray-950 text-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ titulo }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .stars-bg {
+            background-image: radial-gradient(white 1px, transparent 0), radial-gradient(white 1px, transparent 0);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            opacity: 0.08;
+        }
+    </style>
+</head>
+<body class="h-full flex flex-col relative overflow-hidden select-none">
+
+    <div class="absolute inset-0 stars-bg pointer-events-none"></div>
+
+    <header class="z-10 w-full border-b border-gray-800 bg-gray-900/60 backdrop-blur-md px-6 py-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-xl font-bold tracking-wider text-indigo-400 font-serif">DUÉRMETE NIÑO</h1>
+            <p class="text-xs text-gray-400">Cartografía analítica del folclore infantil mundial</p>
+        </div>
+        <nav class="flex space-x-6 text-sm font-medium">
+            <a href="/" class="text-indigo-400 hover:text-indigo-300 transition">El Globo</a>
+            <a href="/arquetipos/" class="text-gray-400 hover:text-gray-200 transition">Los 5 Arquetipos</a>
+            <a href="/acerca-de/" class="text-gray-400 hover:text-gray-200 transition">Acerca del Proyecto</a>
+        </nav>
+    </header>
+
+    <main class="flex-1 flex flex-col md:flex-row relative z-0 h-[calc(100vh-73px)]">
+        
+        <div class="flex-1 relative flex items-center justify-center bg-radial from-gray-900 to-gray-950 p-4">
+            <div class="text-center">
+                <div id="globo" class="w-80 h-80 md:w-120 md:h-120 rounded-full border border-gray-800 shadow-[0_0_80px_rgba(55,48,163,0.15)] bg-slate-900 flex items-center justify-center relative cursor-grab active:cursor-grabbing transition-transform duration-500 hover:scale-102">
+                    <span class="text-gray-500 text-sm font-mono">[Planeta Tierra Interactivo con Países Activos]</span>
+                    
+                    <div class="absolute bottom-6 bg-gray-950/80 border border-gray-800 px-3 py-1 rounded-full text-xs text-indigo-300">
+                        Arrastra para rotar · Haz clic en un país
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="sidebar-info" class="w-full md:w-96 border-t md:border-t-0 md:border-l border-gray-800 bg-gray-900/40 backdrop-blur-lg p-6 overflow-y-auto flex flex-col justify-between">
+            <div>
+                <div id="placeholder-text" class="text-center py-12 text-gray-500">
+                    <svg class="mx-auto h-12 w-12 text-gray-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h2m4-1c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8a9.863 9.863 0 014.255.949L21 4l-1.395 3.72C20.488 8.958 21 10.426 21 12z" />
+                    </svg>
+                    <p class="text-sm">Selecciona un país en el globo terráqueo para desplegar sus seres folclóricos, mitos y leyendas.</p>
+                </div>
+
+                <div id="content-display" class="hidden space-y-6">
+                    <div class="border-b border-gray-800 pb-4">
+                        <span id="txt-continente" class="text-xs uppercase tracking-widest text-indigo-400 font-bold">EUROPA</span>
+                        <h2 id="txt-pais" class="text-2xl font-bold font-serif text-white">Islandia</h2>
+                    </div>
+
+                    <div id="lista-criaturas" class="space-y-4">
+                        <!-- Las criaturas se renderizan via JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <footer class="text-[10px] text-gray-600 text-center border-t border-gray-800 pt-4 mt-4">
+                "Duérmete Niño" © 2026 · Mitos Infantiles Globales
+            </footer>
+        </section>
+    </main>
+
+    <script>
+        // JavaScript para interactividad del mapa
+        document.addEventListener('DOMContentLoaded', function() {
+            // Por ahora, funcionalidad placeholder
+            console.log('Duérmete Niño - Mapa interactivo del folclore infantil');
+        });
+    </script>
+
+</body>
+</html>

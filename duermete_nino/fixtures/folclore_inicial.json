@@ -1,0 +1,1580 @@
+[
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 1,
+    "fields": {
+      "nombre": "La devoradora de niños",
+      "descripcion": "Figura que devora, consume o se alimenta de niños como castigo o por naturaleza."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 2,
+    "fields": {
+      "nombre": "El secuestrador de niños",
+      "descripcion": "Entidad que secuestra, roba o extravía niños, generalmente como castigo por desobediencia."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 3,
+    "fields": {
+      "nombre": "El espíritu acuático que atrae niños",
+      "descripcion": "Ser que habita ríos, lagos o mares y atrae o arrastra a los niños al agua."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 4,
+    "fields": {
+      "nombre": "El niño fantasma o espíritu infantil",
+      "descripcion": "Espíritu de niño que interactúa con los vivos, trayendo fortuna, advertencia o consuelo."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 5,
+    "fields": {
+      "nombre": "El protector del hogar",
+      "descripcion": "Entidad benevolente que protege, cuida o recompensa a los niños y sus hogares."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 6,
+    "fields": {
+      "nombre": "Las hadas que roban o cambian bebés",
+      "descripcion": "Seres feéricos que sustituyen bebés humanos por criaturas mágicas."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 7,
+    "fields": {
+      "nombre": "El espíritu infantil/Pícaro",
+      "descripcion": "Entidad traviesa y juguetona que interactúa con niños, a veces ayudando, a veces molestando."
+    }
+  },
+  {
+    "model": "duermete_nino.arquetipo",
+    "pk": 8,
+    "fields": {
+      "nombre": "El secuestrador/Castigador",
+      "descripcion": "Figura que castiga rigurosamente las malas conductas mediante secuestro temporal, golpes o sustos."
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 1,
+    "fields": {
+      "nombre": "Islandia",
+      "codigo_iso": "ISL",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 2,
+    "fields": {
+      "nombre": "Austria",
+      "codigo_iso": "AUT",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 3,
+    "fields": {
+      "nombre": "Alemania",
+      "codigo_iso": "DEU",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 4,
+    "fields": {
+      "nombre": "Polonia",
+      "codigo_iso": "POL",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 5,
+    "fields": {
+      "nombre": "Chequia",
+      "codigo_iso": "CZE",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 6,
+    "fields": {
+      "nombre": "Reino Unido",
+      "codigo_iso": "GBR",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 7,
+    "fields": {
+      "nombre": "España",
+      "codigo_iso": "ESP",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 8,
+    "fields": {
+      "nombre": "Escocia",
+      "codigo_iso": "SCT",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 9,
+    "fields": {
+      "nombre": "Irlanda",
+      "codigo_iso": "IRL",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 10,
+    "fields": {
+      "nombre": "Noruega",
+      "codigo_iso": "NOR",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 11,
+    "fields": {
+      "nombre": "Dinamarca",
+      "codigo_iso": "DNK",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 12,
+    "fields": {
+      "nombre": "Suecia",
+      "codigo_iso": "SWE",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 13,
+    "fields": {
+      "nombre": "Francia",
+      "codigo_iso": "FRA",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 14,
+    "fields": {
+      "nombre": "Italia",
+      "codigo_iso": "ITA",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 15,
+    "fields": {
+      "nombre": "Rusia",
+      "codigo_iso": "RUS",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 16,
+    "fields": {
+      "nombre": "Finlandia",
+      "codigo_iso": "FIN",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 17,
+    "fields": {
+      "nombre": "México",
+      "codigo_iso": "MEX",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 18,
+    "fields": {
+      "nombre": "Argentina",
+      "codigo_iso": "ARG",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 19,
+    "fields": {
+      "nombre": "Colombia",
+      "codigo_iso": "COL",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 20,
+    "fields": {
+      "nombre": "Paraguay",
+      "codigo_iso": "PRY",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 21,
+    "fields": {
+      "nombre": "Chile",
+      "codigo_iso": "CHL",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 22,
+    "fields": {
+      "nombre": "Perú",
+      "codigo_iso": "PER",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 23,
+    "fields": {
+      "nombre": "Cuba",
+      "codigo_iso": "CUB",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 24,
+    "fields": {
+      "nombre": "Guatemala",
+      "codigo_iso": "GTM",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 25,
+    "fields": {
+      "nombre": "Brasil",
+      "codigo_iso": "BRA",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 26,
+    "fields": {
+      "nombre": "Venezuela",
+      "codigo_iso": "VEN",
+      "continente": "LA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 27,
+    "fields": {
+      "nombre": "Canadá",
+      "codigo_iso": "CAN",
+      "continente": "NA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 28,
+    "fields": {
+      "nombre": "Estados Unidos",
+      "codigo_iso": "USA",
+      "continente": "NA"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 29,
+    "fields": {
+      "nombre": "Japón",
+      "codigo_iso": "JPN",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 30,
+    "fields": {
+      "nombre": "Indonesia",
+      "codigo_iso": "IDN",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 31,
+    "fields": {
+      "nombre": "Malasia",
+      "codigo_iso": "MYS",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 32,
+    "fields": {
+      "nombre": "Tailandia",
+      "codigo_iso": "THA",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 33,
+    "fields": {
+      "nombre": "India",
+      "codigo_iso": "IND",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 34,
+    "fields": {
+      "nombre": "China",
+      "codigo_iso": "CHN",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 35,
+    "fields": {
+      "nombre": "Emiratos Árabes",
+      "codigo_iso": "ARE",
+      "continente": "AS"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 36,
+    "fields": {
+      "nombre": "Sudáfrica",
+      "codigo_iso": "ZAF",
+      "continente": "AF"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 37,
+    "fields": {
+      "nombre": "Ghana",
+      "codigo_iso": "GHA",
+      "continente": "AF"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 38,
+    "fields": {
+      "nombre": "Togo",
+      "codigo_iso": "TGO",
+      "continente": "AF"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 39,
+    "fields": {
+      "nombre": "Benín",
+      "codigo_iso": "BEN",
+      "continente": "AF"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 40,
+    "fields": {
+      "nombre": "Gambia",
+      "codigo_iso": "GMB",
+      "continente": "AF"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 41,
+    "fields": {
+      "nombre": "Nigeria",
+      "codigo_iso": "NGA",
+      "continente": "AF"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 42,
+    "fields": {
+      "nombre": "Australia",
+      "codigo_iso": "AUS",
+      "continente": "OC"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 43,
+    "fields": {
+      "nombre": "Nueva Zelanda",
+      "codigo_iso": "NZL",
+      "continente": "OC"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 44,
+    "fields": {
+      "nombre": "Hawái",
+      "codigo_iso": "HWI",
+      "continente": "OC"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 45,
+    "fields": {
+      "nombre": "Islas Salomón",
+      "codigo_iso": "SLB",
+      "continente": "OC"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 46,
+    "fields": {
+      "nombre": "Groenlandia",
+      "codigo_iso": "GRL",
+      "continente": "OC"
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 1,
+    "fields": {
+      "nombre": "Grýla",
+      "descripcion_breve": "Devora de forma implacable a todos los niños desobedientes durante las vísperas navideñas.",
+      "descripcion_detallada": "",
+      "pais": 1,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 2,
+    "fields": {
+      "nombre": "Jólasveinar",
+      "descripcion_breve": "Traviesos muchachos que bajan de la montaña durante la Navidad para gastar bromas y, si los niños se portan mal, secuestrarlos.",
+      "descripcion_detallada": "",
+      "pais": 1,
+      "arquetipo": 7
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 3,
+    "fields": {
+      "nombre": "Krampus",
+      "descripcion_breve": "Criatura que acompaña a San Nicolás y castiga a los niños malos con cadenas y ramas de abedul.",
+      "descripcion_detallada": "",
+      "pais": 2,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 4,
+    "fields": {
+      "nombre": "Perchta",
+      "descripcion_breve": "Entidad que castiga a los niños desobedientes abriéndoles el vientre para rellenarlos con paja.",
+      "descripcion_detallada": "",
+      "pais": 2,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 5,
+    "fields": {
+      "nombre": "Baba Yaga",
+      "descripcion_breve": "Anciana bruja que habita en una choza sobre patas de pollo y devora a los niños que se pierden en el bosque.",
+      "descripcion_detallada": "",
+      "pais": 15,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 6,
+    "fields": {
+      "nombre": "Rübezahl",
+      "descripcion_breve": "Gigante de las montañas que protege a los pastores y castiga a quienes dañan la naturaleza.",
+      "descripcion_detallada": "",
+      "pais": 4,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 7,
+    "fields": {
+      "nombre": "Black Annis",
+      "descripcion_breve": "Bruja de cara azul con garras de hierro que devora a los niños que se acercan a su cueva en los bosques de Leicestershire.",
+      "descripcion_detallada": "",
+      "pais": 6,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 8,
+    "fields": {
+      "nombre": "Jenny Greenteeth",
+      "descripcion_breve": "Espíritu de río con dientes verdes que atrae a los niños hacia las aguas profundas para ahogarlos.",
+      "descripcion_detallada": "",
+      "pais": 6,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 9,
+    "fields": {
+      "nombre": "Bogeyman",
+      "descripcion_breve": "Ser misterioso que se esconde en armarios y debajo de camas para llevarse a los niños que no se portan bien.",
+      "descripcion_detallada": "",
+      "pais": 6,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 10,
+    "fields": {
+      "nombre": "El Hombre del Saco",
+      "descripcion_breve": "Hombre que lleva un saco al hombro para raptar a los niños que se portan mal y llevárselos lejos.",
+      "descripcion_detallada": "",
+      "pais": 7,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 11,
+    "fields": {
+      "nombre": "Coco",
+      "descripcion_breve": "Monstruo que se esconde en habitaciones oscuras para llevarse a los niños que no quieren dormir.",
+      "descripcion_detallada": "",
+      "pais": 7,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 12,
+    "fields": {
+      "nombre": "Trasgu",
+      "descripcion_breve": "Duende doméstico que ayuda en las tareas del hogar pero también hace travesuras si se le enfada.",
+      "descripcion_detallada": "",
+      "pais": 7,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 13,
+    "fields": {
+      "nombre": "Nuberu",
+      "descripcion_breve": "Señor de las tormentas que castiga a los niños y adultos que maltratan la naturaleza lanzando rayos.",
+      "descripcion_detallada": "",
+      "pais": 7,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 14,
+    "fields": {
+      "nombre": "Brownie",
+      "descripcion_breve": "Pequeño ser hogareño que realiza labores domésticas durante la noche a cambio de comida y respeto.",
+      "descripcion_detallada": "",
+      "pais": 8,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 15,
+    "fields": {
+      "nombre": "Bean Nighe",
+      "descripcion_breve": "Lavandera fantasma que lava las mortajas de quienes van a morir, apareciendo cerca de arroyos solitarios.",
+      "descripcion_detallada": "",
+      "pais": 8,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 16,
+    "fields": {
+      "nombre": "Selkie",
+      "descripcion_breve": "Foca que muda su piel para volverse humana y atrae a los niños con su canto hipnótico junto al mar.",
+      "descripcion_detallada": "",
+      "pais": 8,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 17,
+    "fields": {
+      "nombre": "Changeling",
+      "descripcion_breve": "Criatura feérica que las hadas dejan en lugar del bebé humano que roban de su cuna.",
+      "descripcion_detallada": "",
+      "pais": 9,
+      "arquetipo": 6
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 18,
+    "fields": {
+      "nombre": "Leshy",
+      "descripcion_breve": "Espíritu del bosque que confunde y secuestra a los niños que se adentran demasiado en la foresta.",
+      "descripcion_detallada": "",
+      "pais": 15,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 19,
+    "fields": {
+      "nombre": "Domovói",
+      "descripcion_breve": "Espíritu del hogar que protege la casa y a los niños que en ella habitan si se le respeta.",
+      "descripcion_detallada": "",
+      "pais": 15,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 20,
+    "fields": {
+      "nombre": "Tomte",
+      "descripcion_breve": "Gnomo anciano que cuida las granjas y protege a los niños de los peligros de la noche.",
+      "descripcion_detallada": "",
+      "pais": 12,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 21,
+    "fields": {
+      "nombre": "La Llorona",
+      "descripcion_breve": "Espíritu de madre que llora por sus hijos perdidos y vaga cerca de ríos, atrayendo a los niños con su lamento.",
+      "descripcion_detallada": "",
+      "pais": 17,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 22,
+    "fields": {
+      "nombre": "El Cuco",
+      "descripcion_breve": "Monstruo que se oculta en la oscuridad para llevarse a los niños que no obedecen a sus padres.",
+      "descripcion_detallada": "",
+      "pais": 17,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 23,
+    "fields": {
+      "nombre": "El Familiar",
+      "descripcion_breve": "Ser nocturno que ataca a los niños que deambulan solos por la noche, robándolos para siempre.",
+      "descripcion_detallada": "",
+      "pais": 18,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 24,
+    "fields": {
+      "nombre": "Patasola",
+      "descripcion_breve": "Mujer de una sola pierna que seduce a los niños en la selva para devorarlos en su guarida.",
+      "descripcion_detallada": "",
+      "pais": 19,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 25,
+    "fields": {
+      "nombre": "Madremonte",
+      "descripcion_breve": "Guardiana de la naturaleza que castiga a quienes dañan el bosque, especialmente a niños que maltratan animales.",
+      "descripcion_detallada": "",
+      "pais": 19,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 26,
+    "fields": {
+      "nombre": "Mohán",
+      "descripcion_breve": "Hechicero acuático de larga cabellera que atrae a los niños a los ríos con su canto hipnótico.",
+      "descripcion_detallada": "",
+      "pais": 19,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 27,
+    "fields": {
+      "nombre": "Pombero",
+      "descripcion_breve": "Duende del monte que protege a los animales y a los niños perdidos, guiándolos de vuelta a casa.",
+      "descripcion_detallada": "",
+      "pais": 20,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 28,
+    "fields": {
+      "nombre": "Kurupí",
+      "descripcion_breve": "Ser de los pies hacia atrás que secuestra a los niños que se internan solos en el monte.",
+      "descripcion_detallada": "",
+      "pais": 20,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 29,
+    "fields": {
+      "nombre": "Yasy Yateré",
+      "descripcion_breve": "Duende rubio de los yerbatales que atrae a los niños con silbidos y los pierde en el monte.",
+      "descripcion_detallada": "",
+      "pais": 20,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 30,
+    "fields": {
+      "nombre": "Pihuchén",
+      "descripcion_breve": "Ser alado que chupa la sangre de niños indefensos durante la noche, similar a un vampiro.",
+      "descripcion_detallada": "",
+      "pais": 21,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 31,
+    "fields": {
+      "nombre": "Tue-Tué",
+      "descripcion_breve": "Bruja que se transforma en ave nocturna y ataca a los niños malos mientras duermen.",
+      "descripcion_detallada": "",
+      "pais": 21,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 32,
+    "fields": {
+      "nombre": "Trauco",
+      "descripcion_breve": "Duende deforme que habita en los bosques del sur y seduce o secuestra a niños descuidados.",
+      "descripcion_detallada": "",
+      "pais": 21,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 33,
+    "fields": {
+      "nombre": "Fiura",
+      "descripcion_breve": "Mujer salvaje de largos cabellos que ataca a los niños que desobedecen a sus padres en el bosque.",
+      "descripcion_detallada": "",
+      "pais": 21,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 34,
+    "fields": {
+      "nombre": "Caleuche",
+      "descripcion_breve": "Barco fantasma que navega por los canales del sur atrayendo a los niños con luces y música.",
+      "descripcion_detallada": "",
+      "pais": 21,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 35,
+    "fields": {
+      "nombre": "Chonchón",
+      "descripcion_breve": "Cabeza con grandes orejas que vuela emitiendo un canto fúnebre anunciando desgracia a niños desobedientes.",
+      "descripcion_detallada": "",
+      "pais": 21,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 36,
+    "fields": {
+      "nombre": "Sachamama",
+      "descripcion_breve": "Serpiente gigante de la amazonía que devora a todo aquel que perturbe la selva, incluyendo niños.",
+      "descripcion_detallada": "",
+      "pais": 22,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 37,
+    "fields": {
+      "nombre": "Tunche",
+      "descripcion_breve": "Espíritu selvático que silba anunciando su presencia y secuestra a los niños que maltratan la naturaleza.",
+      "descripcion_detallada": "",
+      "pais": 22,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 38,
+    "fields": {
+      "nombre": "Madre de Agua",
+      "descripcion_breve": "Espíritu femenino de ríos y lagunas que atrae a los niños con su belleza para sumergirlos en las aguas.",
+      "descripcion_detallada": "",
+      "pais": 19,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 39,
+    "fields": {
+      "nombre": "Duende de los Cerros",
+      "descripcion_breve": "Pequeño ser de los Andes que juega con los niños pero los pierde en las montañas si no lo respetan.",
+      "descripcion_detallada": "",
+      "pais": 22,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 40,
+    "fields": {
+      "nombre": "Alux",
+      "descripcion_breve": "Pequeño duende maya que protege los hogares y las milpas, recompensando a los niños que ayudan en casa.",
+      "descripcion_detallada": "",
+      "pais": 17,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 41,
+    "fields": {
+      "nombre": "Wendigo",
+      "descripcion_breve": "Espíritu devorador de los bosques fríos que posee a quienes se entregan al canibalismo, cazando niños.",
+      "descripcion_detallada": "",
+      "pais": 27,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 42,
+    "fields": {
+      "nombre": "Skinwalker",
+      "descripcion_breve": "Hechicero que se transforma en animal para acechar y secuestrar a niños que desobedecen las tradiciones.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 43,
+    "fields": {
+      "nombre": "Pukwudgie",
+      "descripcion_breve": "Pequeño ser pícaro de la tradición algonquina que secuestra niños y juega bromas peligrosas.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 44,
+    "fields": {
+      "nombre": "Thunderbird",
+      "descripcion_breve": "Ave gigante protectora que ahuyenta a los espíritus malignos y protege a los niños de las tormentas.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 45,
+    "fields": {
+      "nombre": "Water Babies",
+      "descripcion_breve": "Espíritus de niños fallecidos que habitan en ríos y lagos, atrayendo a otros niños a su morada acuática.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 46,
+    "fields": {
+      "nombre": "Rawhead",
+      "descripcion_breve": "Monstruo de sangre con cabeza descarnada que acecha los sótanos y armarios para llevarse a niños desobedientes.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 47,
+    "fields": {
+      "nombre": "Tommyknocker",
+      "descripcion_breve": "Pequeños duendes mineros que protegen a los niños que trabajan en las minas, advirtiendo de peligros.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 48,
+    "fields": {
+      "nombre": "Night Hag",
+      "descripcion_breve": "Bruja nocturna que se sienta sobre el pecho de los niños mientras duermen, causando pesadillas y parálisis.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 49,
+    "fields": {
+      "nombre": "Jersey Devil",
+      "descripcion_breve": "Criatura alada que habita los bosques de Nueva Jersey y secuestra a niños que vagan solos de noche.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 50,
+    "fields": {
+      "nombre": "Mishipeshu",
+      "descripcion_breve": "Pantera acuática con cuernos de ciervo que habita el Lago Superior y atrae a niños a las aguas heladas.",
+      "descripcion_detallada": "",
+      "pais": 28,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 51,
+    "fields": {
+      "nombre": "Namahage",
+      "descripcion_breve": "Demonios que bajan de las montañas en Año Nuevo para castigar a los niños perezosos y desobedientes.",
+      "descripcion_detallada": "",
+      "pais": 29,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 52,
+    "fields": {
+      "nombre": "Kappa",
+      "descripcion_breve": "Duende acuático de ríos japoneses que atrae a los niños al agua y los arrastra a su guarida.",
+      "descripcion_detallada": "",
+      "pais": 29,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 53,
+    "fields": {
+      "nombre": "Tengu",
+      "descripcion_breve": "Criatura alada mitad hombre mitad cuervo que secuestra a niños que se pierden en las montañas.",
+      "descripcion_detallada": "",
+      "pais": 29,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 54,
+    "fields": {
+      "nombre": "Yuki-onna",
+      "descripcion_breve": "Mujer de nieve que aparece en tormentas invernales y hechiza a los niños para que la sigan a la muerte.",
+      "descripcion_detallada": "",
+      "pais": 29,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 55,
+    "fields": {
+      "nombre": "Zashiki-warashi",
+      "descripcion_breve": "Espíritu infantil de cabello corto que trae buena fortuna a los hogares donde se le respeta.",
+      "descripcion_detallada": "",
+      "pais": 29,
+      "arquetipo": 4
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 56,
+    "fields": {
+      "nombre": "Aka Manto",
+      "descripcion_breve": "Espíritu que acecha en los baños escolares y ofrece papel rojo o azul a los niños, castigando según su elección.",
+      "descripcion_detallada": "",
+      "pais": 29,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 57,
+    "fields": {
+      "nombre": "Pontianak",
+      "descripcion_breve": "Espíritu femenino que seduce a los hombres y roba bebés recién nacidos de sus cunas.",
+      "descripcion_detallada": "",
+      "pais": 30,
+      "arquetipo": 6
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 58,
+    "fields": {
+      "nombre": "Toyol",
+      "descripcion_breve": "Espíritu de bebé no nacido que es usado como sirviente para robar y asustar a niños vivos.",
+      "descripcion_detallada": "",
+      "pais": 31,
+      "arquetipo": 4
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 59,
+    "fields": {
+      "nombre": "Penanggalan",
+      "descripcion_breve": "Cabeza voladora con vísceras colgantes que devora a niños recién nacidos y mujeres embarazadas.",
+      "descripcion_detallada": "",
+      "pais": 31,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 60,
+    "fields": {
+      "nombre": "Krasue",
+      "descripcion_breve": "Cabeza flotante con órganos internos expuestos que devora niños durante la noche en las aldeas.",
+      "descripcion_detallada": "",
+      "pais": 32,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 61,
+    "fields": {
+      "nombre": "Phi Krasue",
+      "descripcion_breve": "Espíritu femenino flotante que se alimenta de carne y vísceras de niños descuidados.",
+      "descripcion_detallada": "",
+      "pais": 32,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 62,
+    "fields": {
+      "nombre": "Nang Tani",
+      "descripcion_breve": "Espíritu femenino de los árboles de plátano que protege a los niños que juegan cerca de los templos.",
+      "descripcion_detallada": "",
+      "pais": 32,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 63,
+    "fields": {
+      "nombre": "Rakshasa",
+      "descripcion_breve": "Demonio devorador de carne humana que acecha en los bosques para capturar y devorar niños.",
+      "descripcion_detallada": "",
+      "pais": 33,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 64,
+    "fields": {
+      "nombre": "Vetala",
+      "descripcion_breve": "Espíritu que posee cuerpos sin vida y castiga a los niños que profanan los lugares sagrados.",
+      "descripcion_detallada": "",
+      "pais": 33,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 65,
+    "fields": {
+      "nombre": "Jinn",
+      "descripcion_breve": "Ser de fuego sin humo que protege los hogares y a los niños si se les honra debidamente.",
+      "descripcion_detallada": "",
+      "pais": 35,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 66,
+    "fields": {
+      "nombre": "Ghoul",
+      "descripcion_breve": "Demonio carroñero que devora niños en cementerios y lugares desolados durante la noche.",
+      "descripcion_detallada": "",
+      "pais": 35,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 67,
+    "fields": {
+      "nombre": "Um Al Duwais",
+      "descripcion_breve": "Ser que azota a los niños con un látigo si se portan mal o no honran a sus padres.",
+      "descripcion_detallada": "",
+      "pais": 35,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 68,
+    "fields": {
+      "nombre": "Huli Jing",
+      "descripcion_breve": "Zorro espiritual de nueve colas que seduce y extravía a los niños en los bosques encantados.",
+      "descripcion_detallada": "",
+      "pais": 34,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 69,
+    "fields": {
+      "nombre": "Nian",
+      "descripcion_breve": "Bestia devoradora que emerge cada Año Nuevo para devorar niños, ahuyentada por petardos y color rojo.",
+      "descripcion_detallada": "",
+      "pais": 34,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 70,
+    "fields": {
+      "nombre": "Mogwai",
+      "descripcion_breve": "Pequeños espíritus traviesos que causan problemas pero también protegen a los niños de peligros mayores.",
+      "descripcion_detallada": "",
+      "pais": 34,
+      "arquetipo": 7
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 71,
+    "fields": {
+      "nombre": "Tokoloshe",
+      "descripcion_breve": "Duende acuático que secuestra niños que se bañan solos en ríos y lagos durante la noche.",
+      "descripcion_detallada": "",
+      "pais": 36,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 72,
+    "fields": {
+      "nombre": "Grootslang",
+      "descripcion_breve": "Serpiente elefante gigante que habita cuevas profundas y devora niños que se aventuran en su territorio.",
+      "descripcion_detallada": "",
+      "pais": 36,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 73,
+    "fields": {
+      "nombre": "Adze",
+      "descripcion_breve": "Bruja vampírica que se transforma en luciérnaga y devora niños pequeños durante la noche.",
+      "descripcion_detallada": "",
+      "pais": 37,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 74,
+    "fields": {
+      "nombre": "Asanbosam",
+      "descripcion_breve": "Criatura con ganchos de hierro por pies que cuelga de árboles para atrapar y devorar niños.",
+      "descripcion_detallada": "",
+      "pais": 37,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 75,
+    "fields": {
+      "nombre": "Sasabonsam",
+      "descripcion_breve": "Murciélago gigante con alas enormes que caza niños desde las copas de los árboles en la selva.",
+      "descripcion_detallada": "",
+      "pais": 37,
+      "arquetipo": 1
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 76,
+    "fields": {
+      "nombre": "Abiku",
+      "descripcion_breve": "Espíritu de niño que nace y muere repetidamente, atormentando a sus padres con ciclos de pérdida.",
+      "descripcion_detallada": "",
+      "pais": 41,
+      "arquetipo": 4
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 77,
+    "fields": {
+      "nombre": "Mami Wata",
+      "descripcion_breve": "Diosa acuática de larga cabellera que atrae a los niños con su canto hacia las profundidades del río.",
+      "descripcion_detallada": "",
+      "pais": 41,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 78,
+    "fields": {
+      "nombre": "Ninki Nanka",
+      "descripcion_breve": "Dragón de los pantanos que secuestra niños que se acercan demasiado a las orillas del río Gambia.",
+      "descripcion_detallada": "",
+      "pais": 40,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 79,
+    "fields": {
+      "nombre": "Impundulu",
+      "descripcion_breve": "Pájaro del trueno que ataca a los niños desobedientes con rayos y castigos celestiales.",
+      "descripcion_detallada": "",
+      "pais": 36,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 80,
+    "fields": {
+      "nombre": "Aziza",
+      "descripcion_breve": "Pequeños espíritus benévolos del bosque que protegen a los niños cazadores y recolectores.",
+      "descripcion_detallada": "",
+      "pais": 39,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 81,
+    "fields": {
+      "nombre": "Bunyip",
+      "descripcion_breve": "Monstruo de los pantanos que emerge del agua para devorar niños que se acercan a sus ciénagas.",
+      "descripcion_detallada": "",
+      "pais": 42,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 82,
+    "fields": {
+      "nombre": "Yara-ma-yha-who",
+      "descripcion_breve": "Pequeño ser rojo que cae de los árboles para succionar la sangre de niños que pasan bajo su sombra.",
+      "descripcion_detallada": "",
+      "pais": 42,
+      "arquetipo": 2
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 83,
+    "fields": {
+      "nombre": "Mimi",
+      "descripcion_breve": "Espíritus elegantes de las rocas que enseñan a los niños aborígenes a cazar y pintar.",
+      "descripcion_detallada": "",
+      "pais": 42,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 84,
+    "fields": {
+      "nombre": "Taniwha",
+      "descripcion_breve": "Guardián acuático que protege los ríos y lagos, atrapando a niños que contaminan sus aguas.",
+      "descripcion_detallada": "",
+      "pais": 43,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 85,
+    "fields": {
+      "nombre": "Patupaiarehe",
+      "descripcion_breve": "Hadas de piel pálida y cabello dorado que cambian bebés maoríes por sus propias crías.",
+      "descripcion_detallada": "",
+      "pais": 43,
+      "arquetipo": 6
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 86,
+    "fields": {
+      "nombre": "Menehune",
+      "descripcion_breve": "Pequeños constructores nocturnos que protegen los hogares y niños hawaiianos con su magia ancestral.",
+      "descripcion_detallada": "",
+      "pais": 44,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 87,
+    "fields": {
+      "nombre": "Mo'o",
+      "descripcion_breve": "Lagarto acuático gigante que atrae niños a los estanques sagrados con su canto hipnótico.",
+      "descripcion_detallada": "",
+      "pais": 44,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 88,
+    "fields": {
+      "nombre": "Kakamora",
+      "descripcion_breve": "Pequeños seres guerreros de las islas Salomón que viajan en cocos y juegan bromas a los niños.",
+      "descripcion_detallada": "",
+      "pais": 45,
+      "arquetipo": 7
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 89,
+    "fields": {
+      "nombre": "Te Wheke",
+      "descripcion_breve": "Pulpo gigante de ocho tentáculos que habita las profundidades y atrapa niños cerca de las costas.",
+      "descripcion_detallada": "",
+      "pais": 43,
+      "arquetipo": 3
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 90,
+    "fields": {
+      "nombre": "Tupilaq",
+      "descripcion_breve": "Golem de huesos y piel creado por chamanes para castigar a los niños que rompen tabúes.",
+      "descripcion_detallada": "",
+      "pais": 46,
+      "arquetipo": 8
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 91,
+    "fields": {
+      "nombre": "Hada Madrina",
+      "descripcion_breve": "Hada bondadosa que vela por los niños desde su nacimiento, concediendo dones y protección.",
+      "descripcion_detallada": "",
+      "pais": 13,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 92,
+    "fields": {
+      "nombre": "Ángel de la Guarda",
+      "descripcion_breve": "Ser celestial asignado a cada niño para guiarlo, protegerlo y alejarlo del peligro.",
+      "descripcion_detallada": "",
+      "pais": 14,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 93,
+    "fields": {
+      "nombre": "Ratón Pérez",
+      "descripcion_breve": "Pequeño ratón que recoge los dientes de leche caídos y deja monedas o regalos a cambio.",
+      "descripcion_detallada": "",
+      "pais": 7,
+      "arquetipo": 4
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 94,
+    "fields": {
+      "nombre": "Sandman",
+      "descripcion_breve": "Ser misterioso que arroja arena mágica en los ojos de los niños para inducir sueños placenteros.",
+      "descripcion_detallada": "",
+      "pais": 3,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 95,
+    "fields": {
+      "nombre": "Jack Frost",
+      "descripcion_breve": "Espíritu invernal travieso que pinta escarcha en los vidrios y juega con los niños en la nieve.",
+      "descripcion_detallada": "",
+      "pais": 10,
+      "arquetipo": 7
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 96,
+    "fields": {
+      "nombre": "Nisse",
+      "descripcion_breve": "Gnomo navideño que protege las granjas y deja regalos a los niños que se han portado bien.",
+      "descripcion_detallada": "",
+      "pais": 10,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 97,
+    "fields": {
+      "nombre": "Korrigan",
+      "descripcion_breve": "Hada bretona que danza en círculos de piedra y cambia bebés humanos por criaturas feéricas.",
+      "descripcion_detallada": "",
+      "pais": 13,
+      "arquetipo": 6
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 98,
+    "fields": {
+      "nombre": "Lutín",
+      "descripcion_breve": "Duende de las encrucijadas que protege a los niños viajeros señalándoles el camino seguro.",
+      "descripcion_detallada": "",
+      "pais": 13,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 99,
+    "fields": {
+      "nombre": "Kobold",
+      "descripcion_breve": "Espíritu del hogar que ayuda en las tareas domésticas y protege a los niños de accidentes.",
+      "descripcion_detallada": "",
+      "pais": 3,
+      "arquetipo": 5
+    }
+  },
+  {
+    "model": "duermete_nino.serfolclorico",
+    "pk": 100,
+    "fields": {
+      "nombre": "Duende del Hogar",
+      "descripcion_breve": "Pequeño ser doméstico que cuida de los niños mientras duermen y arregla juguetes rotos.",
+      "descripcion_detallada": "",
+      "pais": 7,
+      "arquetipo": 5
+    }
+  }
+]

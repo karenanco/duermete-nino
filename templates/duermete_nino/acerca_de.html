@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-gray-950 text-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca del Proyecto - Duérmete Niño</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .stars-bg {
+            background-image: radial-gradient(white 1px, transparent 0), radial-gradient(white 1px, transparent 0);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            opacity: 0.08;
+        }
+    </style>
+</head>
+<body class="min-h-full flex flex-col bg-gray-950 text-gray-100">
+    <div class="fixed inset-0 stars-bg pointer-events-none"></div>
+
+    <header class="relative z-10 w-full border-b border-gray-800 bg-gray-900/60 backdrop-blur-md px-6 py-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-xl font-bold tracking-wider text-indigo-400 font-serif">DUÉRMETE NIÑO</h1>
+            <p class="text-xs text-gray-400">Cartografía analítica del folclore infantil mundial</p>
+        </div>
+        <nav class="flex space-x-6 text-sm font-medium">
+            <a href="/" class="text-gray-400 hover:text-gray-200 transition">El Globo</a>
+            <a href="/arquetipos/" class="text-gray-400 hover:text-gray-200 transition">Los 5 Arquetipos</a>
+            <a href="/acerca-de/" class="text-indigo-400 hover:text-indigo-300 transition">Acerca del Proyecto</a>
+        </nav>
+    </header>
+
+    <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 py-12">
+        <h2 class="text-4xl font-bold font-serif text-white mb-2">Acerca del Proyecto</h2>
+        <p class="text-gray-400 mb-10">Metodología, objetivos y contexto académico</p>
+
+        <div class="space-y-8">
+            <section class="bg-gray-900/30 border border-gray-800 rounded-2xl p-8">
+                <h3 class="text-2xl font-bold text-indigo-300 mb-4">¿Qué es Duérmete Niño?</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    "Duérmete Niño" es una plataforma interactiva de cartografía analítica del folclore infantil 
+                    mundial. Reúne más de 100 criaturas, espíritus, monstruos y protectores de 6 continentes, 
+                    clasificados bajo 5 arquetipos universales que trascienden fronteras culturales.
+                </p>
+            </section>
+
+            <section class="bg-gray-900/30 border border-gray-800 rounded-2xl p-8">
+                <h3 class="text-2xl font-bold text-indigo-300 mb-4">Metodología</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    Cada figura ha sido investigada a partir de fuentes folclóricas primarias y secundarias, 
+                    identificando su función narrativa dentro del ecosistema de mitos infantiles. La clasificación 
+                    por arquetipos permite visualizar patrones transversales: cómo culturas separadas por océanos 
+                    desarrollaron figuras sorprendentemente similares para transmitir valores, advertencias y 
+                    consuelo a los niños.
+                </p>
+            </section>
+
+            <section class="bg-gray-900/30 border border-gray-800 rounded-2xl p-8">
+                <h3 class="text-2xl font-bold text-indigo-300 mb-4">Objetivos</h3>
+                <ul class="list-disc list-inside text-gray-400 space-y-2 leading-relaxed">
+                    <li>Preservar y difundir el folclore infantil global mediante una plataforma accesible.</li>
+                    <li>Evidenciar los arquetipos universales que comparten culturas geográficamente distantes.</li>
+                    <li>Ofrecer una experiencia inmersiva que invite a la exploración y el aprendizaje.</li>
+                    <li>Facilitar la investigación comparativa del folclore infantil mediante datos estructurados.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="relative z-10 text-center text-xs text-gray-600 py-6 border-t border-gray-800">
+        "Duérmete Niño" © 2026 · Mitos Infantiles Globales
+    </footer>
+</body>
+</html>
