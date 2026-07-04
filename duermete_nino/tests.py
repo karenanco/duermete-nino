@@ -234,7 +234,7 @@ class ViewTests(TestCase):
         """home_view context includes 'titulo' with 'Duérmete Niño'."""
         response = self.client.get(reverse('home'))
         self.assertIn('titulo', response.context)
-        self.assertIn('Duérmete Niño', response.context['titulo'])
+        self.assertIn('Mitos y Leyendas Mundiales', response.context['titulo'])
 
     def test_arquetipos_view_status(self):
         """arquetipos_lista_view returns 200 OK."""

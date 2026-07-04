@@ -11,4 +11,6 @@ urlpatterns = [
     path('api/seres/', views.api_lista_seres, name='api_lista_seres'),
     path('api/pais/<str:codigo_iso>/seres/', views.api_seres_por_pais, name='api_seres_por_pais'),
     path('api/ser/<int:ser_id>/', views.api_detalle_ser, name='api_detalle_ser'),
+    path('api/paises/', views.api_lista_paises, name='api_lista_paises'),
+
 ]

@@ -1,10 +1,10 @@
-# 🗺️ Duérmete Niño
+# 🗺️ Mitos y Leyendas Mundiales
 
-**Cartografía analítica del folclore infantil mundial**
+**Cartografía interactiva del folclore y las leyendas mundiales**
 
-Una plataforma web interactiva que mapea y analiza la mitología y el folclore mundial centrado en la infancia. Descubre más de 100 criaturas, deidades y espíritus que interactúan con los niños, clasificados en 5 arquetipos universales.
+Una plataforma web interactiva que mapea y analiza la mitología, el folclore y las leyendas de todo el mundo. Descubre más de 100 criaturas, deidades y espíritus que interactúan con los niños, clasificados en 5 arquetipos universales.
 
-![Duérmete Niño](https://img.shields.io/badge/Django-5.x-092E20?logo=django)
+![Mitos y Leyendas Mundiales](https://img.shields.io/badge/Django-5.x-092E20?logo=django)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -13,7 +13,7 @@ Una plataforma web interactiva que mapea y analiza la mitología y el folclore m
 ## ✨ Características
 
 - **🌍 Mapa interactivo** — Explora el folclore infantil por país en un globo terráqueo interactivo
-- **👹 100 seres folclóricos** — Base de datos completa con criaturas de los 6 continentes
+- **👹 100 seres folclóricos** — Base de datos con más de 100 criaturas de los 6 continentes
 - **📚 5 arquetipos universales** — Clasificación taxonómica: Devoradora, Secuestrador, Espíritu Acuático, Niño Fantasma, Protector
 - **🌙 Dark mode inmersivo** — Interfaz oscura tipo "fantasía" con Tailwind CSS v4
 - **🔌 API REST** — Endpoints JSON para consumir los datos desde cualquier frontend
@@ -44,8 +44,8 @@ Una plataforma web interactiva que mapea y analiza la mitología y el folclore m
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/duermete-nino.git
-cd duermete-nino
+git clone https://github.com/tu-usuario/mitos-y-leyendas-mundiales.git
+cd mitos-y-leyendas-mundiales
 
 # Crear entorno virtual
 python -m venv venv
@@ -72,7 +72,7 @@ Visita [http://localhost:8000](http://localhost:8000) 🎉
 ## 📁 Estructura del Proyecto
 
 ```
-duermete-nino/
+mitos-y-leyendas-mundiales/
 ├── config/                  # Configuración de Django
 │   ├── settings.py          # Settings principales
 │   ├── urls.py              # URL routing raíz
@@ -147,7 +147,7 @@ El proyecto incluye configuración lista para Render:
 # render.yaml
 services:
   - type: web
-    name: duermete-nino-app
+    name: mitos-y-leyendas-mundiales-app
     env: python
     buildCommand: "./build.sh"
     startCommand: "gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"

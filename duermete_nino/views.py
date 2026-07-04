@@ -6,7 +6,7 @@ from .models import SerFolclorico, Pais, Arquetipo
 def home_view(request):
     """Renderiza la interfaz principal: el planeta Tierra interactivo con fondo oscuro."""
     context = {
-        'titulo': 'Duérmete Niño - Mapa interactivo del folclore infantil mundial'
+        'titulo': 'Mitos y Leyendas Mundiales - Mapa interactivo del folclore global'
     }
     return render(request, 'duermete_nino/home.html', context)
 
@@ -70,3 +70,15 @@ def api_detalle_ser(request, ser_id):
         'descripcion_detallada': ser.descripcion_detallada,
     }
     return JsonResponse(data)
+
+
+def api_lista_paises(request):
+    """Devuelve la lista de países con sus códigos ISO y continentes."""
+    paises = Pais.objects.all().order_by('nombre')
+    data = [{
+        'codigo_iso': p.codigo_iso,
+        'nombre': p.nombre,
+        'continente': p.get_continente_display(),
+        'seres_count': SerFolclorico.objects.filter(pais=p).count()
+    } for p in paises]
+    return JsonResponse({'paises': data})
