@@ -4,15 +4,15 @@
     "pk": 1,
     "fields": {
       "nombre": "La devoradora de niños",
-      "descripcion": "Figura que devora, consume o se alimenta de niños como castigo o por naturaleza."
+      "descripcion": "El monstruo que devora, consume o se alimenta de infantes."
     }
   },
   {
     "model": "duermete_nino.arquetipo",
     "pk": 2,
     "fields": {
-      "nombre": "El secuestrador de niños",
-      "descripcion": "Entidad que secuestra, roba o extravía niños, generalmente como castigo por desobediencia."
+      "nombre": "El secuestrador / Castigador",
+      "descripcion": "Entidad que rapta, castiga o se lleva a los niños desobedientes."
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": 3,
     "fields": {
       "nombre": "El espíritu acuático que atrae niños",
-      "descripcion": "Ser que habita ríos, lagos o mares y atrae o arrastra a los niños al agua."
+      "descripcion": "Seres de ríos, lagos y mares que atraen o arrastran a los infantes."
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": 4,
     "fields": {
       "nombre": "El niño fantasma o espíritu infantil",
-      "descripcion": "Espíritu de niño que interactúa con los vivos, trayendo fortuna, advertencia o consuelo."
+      "descripcion": "Almas de niños que permanecen en el mundo terrenal."
     }
   },
   {
@@ -36,31 +36,7 @@
     "pk": 5,
     "fields": {
       "nombre": "El protector del hogar",
-      "descripcion": "Entidad benevolente que protege, cuida o recompensa a los niños y sus hogares."
-    }
-  },
-  {
-    "model": "duermete_nino.arquetipo",
-    "pk": 6,
-    "fields": {
-      "nombre": "Las hadas que roban o cambian bebés",
-      "descripcion": "Seres feéricos que sustituyen bebés humanos por criaturas mágicas."
-    }
-  },
-  {
-    "model": "duermete_nino.arquetipo",
-    "pk": 7,
-    "fields": {
-      "nombre": "El espíritu infantil/Pícaro",
-      "descripcion": "Entidad traviesa y juguetona que interactúa con niños, a veces ayudando, a veces molestando."
-    }
-  },
-  {
-    "model": "duermete_nino.arquetipo",
-    "pk": 8,
-    "fields": {
-      "nombre": "El secuestrador/Castigador",
-      "descripcion": "Figura que castiga rigurosamente las malas conductas mediante secuestro temporal, golpes o sustos."
+      "descripcion": "Entidades benevolentes que cuidan y velan por los niños."
     }
   },
   {
@@ -68,7 +44,7 @@
     "pk": 1,
     "fields": {
       "nombre": "Islandia",
-      "codigo_iso": "ISL",
+      "codigo_iso": "IS",
       "continente": "EU"
     }
   },
@@ -77,7 +53,7 @@
     "pk": 2,
     "fields": {
       "nombre": "Austria",
-      "codigo_iso": "AUT",
+      "codigo_iso": "AT",
       "continente": "EU"
     }
   },
@@ -85,8 +61,8 @@
     "model": "duermete_nino.pais",
     "pk": 3,
     "fields": {
-      "nombre": "Alemania",
-      "codigo_iso": "DEU",
+      "nombre": "Polonia",
+      "codigo_iso": "PL",
       "continente": "EU"
     }
   },
@@ -94,8 +70,8 @@
     "model": "duermete_nino.pais",
     "pk": 4,
     "fields": {
-      "nombre": "Polonia",
-      "codigo_iso": "POL",
+      "nombre": "Chequia",
+      "codigo_iso": "CZ",
       "continente": "EU"
     }
   },
@@ -103,8 +79,8 @@
     "model": "duermete_nino.pais",
     "pk": 5,
     "fields": {
-      "nombre": "Chequia",
-      "codigo_iso": "CZE",
+      "nombre": "Inglaterra",
+      "codigo_iso": "ENG",
       "continente": "EU"
     }
   },
@@ -112,23 +88,14 @@
     "model": "duermete_nino.pais",
     "pk": 6,
     "fields": {
-      "nombre": "Reino Unido",
-      "codigo_iso": "GBR",
+      "nombre": "España",
+      "codigo_iso": "ES",
       "continente": "EU"
     }
   },
   {
     "model": "duermete_nino.pais",
     "pk": 7,
-    "fields": {
-      "nombre": "España",
-      "codigo_iso": "ESP",
-      "continente": "EU"
-    }
-  },
-  {
-    "model": "duermete_nino.pais",
-    "pk": 8,
     "fields": {
       "nombre": "Escocia",
       "codigo_iso": "SCT",
@@ -137,10 +104,19 @@
   },
   {
     "model": "duermete_nino.pais",
-    "pk": 9,
+    "pk": 8,
     "fields": {
       "nombre": "Irlanda",
-      "codigo_iso": "IRL",
+      "codigo_iso": "IE",
+      "continente": "EU"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 9,
+    "fields": {
+      "nombre": "Rusia",
+      "codigo_iso": "RU",
       "continente": "EU"
     }
   },
@@ -149,7 +125,7 @@
     "pk": 10,
     "fields": {
       "nombre": "Noruega",
-      "codigo_iso": "NOR",
+      "codigo_iso": "NO",
       "continente": "EU"
     }
   },
@@ -158,7 +134,7 @@
     "pk": 11,
     "fields": {
       "nombre": "Dinamarca",
-      "codigo_iso": "DNK",
+      "codigo_iso": "DK",
       "continente": "EU"
     }
   },
@@ -166,8 +142,8 @@
     "model": "duermete_nino.pais",
     "pk": 12,
     "fields": {
-      "nombre": "Suecia",
-      "codigo_iso": "SWE",
+      "nombre": "Francia",
+      "codigo_iso": "FR",
       "continente": "EU"
     }
   },
@@ -175,8 +151,8 @@
     "model": "duermete_nino.pais",
     "pk": 13,
     "fields": {
-      "nombre": "Francia",
-      "codigo_iso": "FRA",
+      "nombre": "Alemania",
+      "codigo_iso": "DE",
       "continente": "EU"
     }
   },
@@ -184,8 +160,8 @@
     "model": "duermete_nino.pais",
     "pk": 14,
     "fields": {
-      "nombre": "Italia",
-      "codigo_iso": "ITA",
+      "nombre": "Bretaña",
+      "codigo_iso": "BRE",
       "continente": "EU"
     }
   },
@@ -193,8 +169,8 @@
     "model": "duermete_nino.pais",
     "pk": 15,
     "fields": {
-      "nombre": "Rusia",
-      "codigo_iso": "RUS",
+      "nombre": "Suecia",
+      "codigo_iso": "SE",
       "continente": "EU"
     }
   },
@@ -203,7 +179,7 @@
     "pk": 16,
     "fields": {
       "nombre": "Finlandia",
-      "codigo_iso": "FIN",
+      "codigo_iso": "FI",
       "continente": "EU"
     }
   },
@@ -212,8 +188,8 @@
     "pk": 17,
     "fields": {
       "nombre": "México",
-      "codigo_iso": "MEX",
-      "continente": "LA"
+      "codigo_iso": "MX",
+      "continente": "SA"
     }
   },
   {
@@ -221,8 +197,8 @@
     "pk": 18,
     "fields": {
       "nombre": "Argentina",
-      "codigo_iso": "ARG",
-      "continente": "LA"
+      "codigo_iso": "AR",
+      "continente": "SA"
     }
   },
   {
@@ -230,8 +206,8 @@
     "pk": 19,
     "fields": {
       "nombre": "Colombia",
-      "codigo_iso": "COL",
-      "continente": "LA"
+      "codigo_iso": "CO",
+      "continente": "SA"
     }
   },
   {
@@ -239,8 +215,8 @@
     "pk": 20,
     "fields": {
       "nombre": "Paraguay",
-      "codigo_iso": "PRY",
-      "continente": "LA"
+      "codigo_iso": "PY",
+      "continente": "SA"
     }
   },
   {
@@ -248,8 +224,8 @@
     "pk": 21,
     "fields": {
       "nombre": "Chile",
-      "codigo_iso": "CHL",
-      "continente": "LA"
+      "codigo_iso": "CL",
+      "continente": "SA"
     }
   },
   {
@@ -257,8 +233,8 @@
     "pk": 22,
     "fields": {
       "nombre": "Perú",
-      "codigo_iso": "PER",
-      "continente": "LA"
+      "codigo_iso": "PE",
+      "continente": "SA"
     }
   },
   {
@@ -266,43 +242,43 @@
     "pk": 23,
     "fields": {
       "nombre": "Cuba",
-      "codigo_iso": "CUB",
-      "continente": "LA"
+      "codigo_iso": "CU",
+      "continente": "SA"
     }
   },
   {
     "model": "duermete_nino.pais",
     "pk": 24,
     "fields": {
-      "nombre": "Guatemala",
-      "codigo_iso": "GTM",
-      "continente": "LA"
+      "nombre": "Venezuela",
+      "codigo_iso": "VE",
+      "continente": "SA"
     }
   },
   {
     "model": "duermete_nino.pais",
     "pk": 25,
     "fields": {
-      "nombre": "Brasil",
-      "codigo_iso": "BRA",
-      "continente": "LA"
+      "nombre": "Canadá",
+      "codigo_iso": "CA",
+      "continente": "NA"
     }
   },
   {
     "model": "duermete_nino.pais",
     "pk": 26,
     "fields": {
-      "nombre": "Venezuela",
-      "codigo_iso": "VEN",
-      "continente": "LA"
+      "nombre": "Estados Unidos",
+      "codigo_iso": "US",
+      "continente": "NA"
     }
   },
   {
     "model": "duermete_nino.pais",
     "pk": 27,
     "fields": {
-      "nombre": "Canadá",
-      "codigo_iso": "CAN",
+      "nombre": "Groenlandia",
+      "codigo_iso": "GL",
       "continente": "NA"
     }
   },
@@ -310,17 +286,17 @@
     "model": "duermete_nino.pais",
     "pk": 28,
     "fields": {
-      "nombre": "Estados Unidos",
-      "codigo_iso": "USA",
-      "continente": "NA"
+      "nombre": "Japón",
+      "codigo_iso": "JP",
+      "continente": "AS"
     }
   },
   {
     "model": "duermete_nino.pais",
     "pk": 29,
     "fields": {
-      "nombre": "Japón",
-      "codigo_iso": "JPN",
+      "nombre": "Indonesia",
+      "codigo_iso": "ID",
       "continente": "AS"
     }
   },
@@ -328,8 +304,8 @@
     "model": "duermete_nino.pais",
     "pk": 30,
     "fields": {
-      "nombre": "Indonesia",
-      "codigo_iso": "IDN",
+      "nombre": "Malasia",
+      "codigo_iso": "MY",
       "continente": "AS"
     }
   },
@@ -337,8 +313,8 @@
     "model": "duermete_nino.pais",
     "pk": 31,
     "fields": {
-      "nombre": "Malasia",
-      "codigo_iso": "MYS",
+      "nombre": "Tailandia",
+      "codigo_iso": "TH",
       "continente": "AS"
     }
   },
@@ -346,8 +322,8 @@
     "model": "duermete_nino.pais",
     "pk": 32,
     "fields": {
-      "nombre": "Tailandia",
-      "codigo_iso": "THA",
+      "nombre": "India",
+      "codigo_iso": "IN",
       "continente": "AS"
     }
   },
@@ -355,8 +331,8 @@
     "model": "duermete_nino.pais",
     "pk": 33,
     "fields": {
-      "nombre": "India",
-      "codigo_iso": "IND",
+      "nombre": "China",
+      "codigo_iso": "CN",
       "continente": "AS"
     }
   },
@@ -364,8 +340,8 @@
     "model": "duermete_nino.pais",
     "pk": 34,
     "fields": {
-      "nombre": "China",
-      "codigo_iso": "CHN",
+      "nombre": "Emiratos Árabes",
+      "codigo_iso": "AE",
       "continente": "AS"
     }
   },
@@ -373,8 +349,8 @@
     "model": "duermete_nino.pais",
     "pk": 35,
     "fields": {
-      "nombre": "Emiratos Árabes",
-      "codigo_iso": "ARE",
+      "nombre": "Filipinas",
+      "codigo_iso": "PH",
       "continente": "AS"
     }
   },
@@ -383,7 +359,7 @@
     "pk": 36,
     "fields": {
       "nombre": "Sudáfrica",
-      "codigo_iso": "ZAF",
+      "codigo_iso": "ZA",
       "continente": "AF"
     }
   },
@@ -392,7 +368,7 @@
     "pk": 37,
     "fields": {
       "nombre": "Ghana",
-      "codigo_iso": "GHA",
+      "codigo_iso": "GH",
       "continente": "AF"
     }
   },
@@ -400,8 +376,8 @@
     "model": "duermete_nino.pais",
     "pk": 38,
     "fields": {
-      "nombre": "Togo",
-      "codigo_iso": "TGO",
+      "nombre": "Nigeria",
+      "codigo_iso": "NG",
       "continente": "AF"
     }
   },
@@ -410,7 +386,7 @@
     "pk": 39,
     "fields": {
       "nombre": "Benín",
-      "codigo_iso": "BEN",
+      "codigo_iso": "BJ",
       "continente": "AF"
     }
   },
@@ -419,7 +395,7 @@
     "pk": 40,
     "fields": {
       "nombre": "Gambia",
-      "codigo_iso": "GMB",
+      "codigo_iso": "GM",
       "continente": "AF"
     }
   },
@@ -427,8 +403,8 @@
     "model": "duermete_nino.pais",
     "pk": 41,
     "fields": {
-      "nombre": "Nigeria",
-      "codigo_iso": "NGA",
+      "nombre": "Kenia",
+      "codigo_iso": "KE",
       "continente": "AF"
     }
   },
@@ -437,7 +413,7 @@
     "pk": 42,
     "fields": {
       "nombre": "Australia",
-      "codigo_iso": "AUS",
+      "codigo_iso": "AU",
       "continente": "OC"
     }
   },
@@ -446,7 +422,7 @@
     "pk": 43,
     "fields": {
       "nombre": "Nueva Zelanda",
-      "codigo_iso": "NZL",
+      "codigo_iso": "NZ",
       "continente": "OC"
     }
   },
@@ -455,7 +431,7 @@
     "pk": 44,
     "fields": {
       "nombre": "Hawái",
-      "codigo_iso": "HWI",
+      "codigo_iso": "HI",
       "continente": "OC"
     }
   },
@@ -464,7 +440,7 @@
     "pk": 45,
     "fields": {
       "nombre": "Islas Salomón",
-      "codigo_iso": "SLB",
+      "codigo_iso": "SB",
       "continente": "OC"
     }
   },
@@ -472,8 +448,17 @@
     "model": "duermete_nino.pais",
     "pk": 46,
     "fields": {
-      "nombre": "Groenlandia",
-      "codigo_iso": "GRL",
+      "nombre": "Polinesia",
+      "codigo_iso": "PF",
+      "continente": "OC"
+    }
+  },
+  {
+    "model": "duermete_nino.pais",
+    "pk": 47,
+    "fields": {
+      "nombre": "Papúa Nueva Guinea",
+      "codigo_iso": "PG",
       "continente": "OC"
     }
   },
@@ -483,7 +468,7 @@
     "fields": {
       "nombre": "Grýla",
       "descripcion_breve": "Devora de forma implacable a todos los niños desobedientes durante las vísperas navideñas.",
-      "descripcion_detallada": "",
+      "descripcion_detallada": "Grýla es una gigantesca criatura del folclore islandés que vive en las montañas y baja a los pueblos durante la temporada navideña. Se dice que cocina a los niños desobedientes en un enorme caldero. Su nombre ha sido utilizado durante siglos para asustar a los niños y mantenerlos en buen comportamiento.",
       "pais": 1,
       "arquetipo": 1
     }
@@ -493,10 +478,10 @@
     "pk": 2,
     "fields": {
       "nombre": "Jólasveinar",
-      "descripcion_breve": "Traviesos muchachos que bajan de la montaña durante la Navidad para gastar bromas y, si los niños se portan mal, secuestrarlos.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Grupo de trece duendes navideños que premian o molestan a los niños según su comportamiento.",
+      "descripcion_detallada": "Los Jólasveinar son los trece hijos de Grýla que durante las trece noches previas a Navidad visitan los hogares islandeses. Dejan pequeños regalos en los zapatos de los niños que se han portado bien y patatas podridas a los que se han portado mal. Originalmente eran figuras traviesas que robaban comida y causaban travesuras.",
       "pais": 1,
-      "arquetipo": 7
+      "arquetipo": 4
     }
   },
   {
@@ -504,10 +489,10 @@
     "pk": 3,
     "fields": {
       "nombre": "Krampus",
-      "descripcion_breve": "Criatura que acompaña a San Nicolás y castiga a los niños malos con cadenas y ramas de abedul.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Criatura demoníaca que castiga a los niños malos durante la temporada navideña.",
+      "descripcion_detallada": "Krampus es una figura del folclore alpino que acompaña a San Nicolás durante la Navidad. Mientras San Nicolás recompensa a los niños buenos con regalos, Krampus castiga a los desobedientes golpeándolos con ramas de abedul y arrastrándolos al inframundo. Su aspecto es el de una bestia con cuernos, cadenas y pezuñas.",
       "pais": 2,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -515,10 +500,10 @@
     "pk": 4,
     "fields": {
       "nombre": "Perchta",
-      "descripcion_breve": "Entidad que castiga a los niños desobedientes abriéndoles el vientre para rellenarlos con paja.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Entidad femenina que vigila el comportamiento infantil durante las fiestas navideñas.",
+      "descripcion_detallada": "Perchta es una figura de la mitología alpina y eslava que aparece durante las doce noches de Navidad para asegurarse de que los niños se han comportado bien y han hilado su lino correctamente. A los niños obedientes les abre el vientre y los rellena de dulces, mientras que a los desobedientes los castiga. Se la representa como una anciana vestida de blanco.",
       "pais": 2,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -526,9 +511,9 @@
     "pk": 5,
     "fields": {
       "nombre": "Baba Yaga",
-      "descripcion_breve": "Anciana bruja que habita en una choza sobre patas de pollo y devora a los niños que se pierden en el bosque.",
-      "descripcion_detallada": "",
-      "pais": 15,
+      "descripcion_breve": "Bruja del bosque que puede tanto ayudar como devorar a los niños perdidos.",
+      "descripcion_detallada": "Baba Yaga es una de las figuras más emblemáticas del folclore eslavo. Vive en una cabaña que camina sobre patas de pollo en lo profundo del bosque y se desplaza volando en un mortero. Aunque a menudo devora a los niños que se pierden en su dominio, también actúa como guía y consejera para aquellos que demuestran astucia y valentía.",
+      "pais": 9,
       "arquetipo": 1
     }
   },
@@ -537,9 +522,9 @@
     "pk": 6,
     "fields": {
       "nombre": "Rübezahl",
-      "descripcion_breve": "Gigante de las montañas que protege a los pastores y castiga a quienes dañan la naturaleza.",
-      "descripcion_detallada": "",
-      "pais": 4,
+      "descripcion_breve": "Espíritu guardián de las montañas que protege a los niños perdidos en los bosques.",
+      "descripcion_detallada": "Rübezahl es un espíritu de las montañas de los Sudetes, especialmente asociado con la región de Silesia. Es conocido por su doble naturaleza: puede ser benevolente con los niños y viajeros inocentes, guiándolos fuera del bosque, o vengativo con quienes muestran arrogancia. Se le representa como un gigante con sombrero de alas anchas.",
+      "pais": 3,
       "arquetipo": 5
     }
   },
@@ -548,9 +533,9 @@
     "pk": 7,
     "fields": {
       "nombre": "Black Annis",
-      "descripcion_breve": "Bruja de cara azul con garras de hierro que devora a los niños que se acercan a su cueva en los bosques de Leicestershire.",
-      "descripcion_detallada": "",
-      "pais": 6,
+      "descripcion_breve": "Bruja de rostro azulado que devora niños en las profundidades del bosque inglés.",
+      "descripcion_detallada": "Black Annis es una temible bruja del folclore de Leicestershire, Inglaterra, que vive en una cueva en lo profundo del bosque. Se dice que tiene la cara azul, garras afiladas y un gusto insaciable por la carne de los niños, a los que caza, cocina y devora. Su leyenda se utilizaba para evitar que los niños se adentraran solos en el bosque.",
+      "pais": 5,
       "arquetipo": 1
     }
   },
@@ -559,9 +544,9 @@
     "pk": 8,
     "fields": {
       "nombre": "Jenny Greenteeth",
-      "descripcion_breve": "Espíritu de río con dientes verdes que atrae a los niños hacia las aguas profundas para ahogarlos.",
-      "descripcion_detallada": "",
-      "pais": 6,
+      "descripcion_breve": "Criatura acuática que arrastra a los niños al fondo de los ríos y estanques.",
+      "descripcion_detallada": "Jenny Greenteeth es una figura del folclore del norte de Inglaterra que habita en ríos, estanques y lagos de aguas turbias. Se la describe como una mujer de tez verdosa y dientes afilados que yace justo debajo de la superficie del agua, esperando atrapar a los niños que se acercan demasiado a la orilla. Su leyenda servía para prevenir ahogamientos infantiles.",
+      "pais": 5,
       "arquetipo": 3
     }
   },
@@ -570,9 +555,9 @@
     "pk": 9,
     "fields": {
       "nombre": "Bogeyman",
-      "descripcion_breve": "Ser misterioso que se esconde en armarios y debajo de camas para llevarse a los niños que no se portan bien.",
-      "descripcion_detallada": "",
-      "pais": 6,
+      "descripcion_breve": "Entidad genérica que asusta a los niños para que se comporten y no se alejen de casa.",
+      "descripcion_detallada": "El Bogeyman es una de las figuras de miedo infantil más extendidas en el mundo anglosajón. No tiene una forma definida, adaptándose a los temores específicos de cada niño. Los padres lo invocan para advertir a los niños que no se porten mal, no salgan de casa por la noche o no desobedezcan. Su ambigüedad lo hace especialmente efectivo como herramienta disciplinaria.",
+      "pais": 5,
       "arquetipo": 2
     }
   },
@@ -581,9 +566,9 @@
     "pk": 10,
     "fields": {
       "nombre": "El Hombre del Saco",
-      "descripcion_breve": "Hombre que lleva un saco al hombro para raptar a los niños que se portan mal y llevárselos lejos.",
-      "descripcion_detallada": "",
-      "pais": 7,
+      "descripcion_breve": "Entidad que secuestra a los niños desobedientes metiéndolos en un costal.",
+      "descripcion_detallada": "El Hombre del Saco es una de las figuras de miedo más extendidas en España y Latinoamérica. Se le describe como un hombre misterioso que carga un gran saco al hombro donde introduce a los niños que se portan mal o no quieren dormir. Su origen podría estar en la figura de un antiguo recogedor de huérfanos o en leyendas sobre robachicos.",
+      "pais": 6,
       "arquetipo": 2
     }
   },
@@ -592,9 +577,9 @@
     "pk": 11,
     "fields": {
       "nombre": "Coco",
-      "descripcion_breve": "Monstruo que se esconde en habitaciones oscuras para llevarse a los niños que no quieren dormir.",
-      "descripcion_detallada": "",
-      "pais": 7,
+      "descripcion_breve": "Ser de la oscuridad que se lleva a los niños que no quieren dormir.",
+      "descripcion_detallada": "El Coco es una criatura legendaria del folclore hispano que se oculta en los armarios o debajo de la cama. Aparece por la noche para llevarse a los niños que se niegan a dormir o que desobedecen a sus padres. Su aspecto es el de una sombra informe con grandes ojos brillantes, y su nombre se usa tradicionalmente en canciones de cuna para tranquilizar a los niños.",
+      "pais": 6,
       "arquetipo": 2
     }
   },
@@ -603,9 +588,9 @@
     "pk": 12,
     "fields": {
       "nombre": "Trasgu",
-      "descripcion_breve": "Duende doméstico que ayuda en las tareas del hogar pero también hace travesuras si se le enfada.",
-      "descripcion_detallada": "",
-      "pais": 7,
+      "descripcion_breve": "Duende doméstico travieso de la mitología asturiana que molesta pero no daña.",
+      "descripcion_detallada": "El Trasgu es un duende del folclore del norte de España, especialmente de Asturias y Cantabria. Es un ser pequeño, con gorro rojo y aspecto juguetón que habita en las casas, donde realiza travesuras como esconder objetos, mover muebles o hacer ruidos por la noche. Aunque es molesto, no es malévolo y puede resultar beneficioso si se le trata con respeto.",
+      "pais": 6,
       "arquetipo": 5
     }
   },
@@ -614,10 +599,10 @@
     "pk": 13,
     "fields": {
       "nombre": "Nuberu",
-      "descripcion_breve": "Señor de las tormentas que castiga a los niños y adultos que maltratan la naturaleza lanzando rayos.",
-      "descripcion_detallada": "",
-      "pais": 7,
-      "arquetipo": 8
+      "descripcion_breve": "Señor de las tormentas que castiga a quienes no respetan la naturaleza.",
+      "descripcion_detallada": "El Nuberu es una deidad atmosférica del folclore asturiano y cántabro que gobierna las nubes y las tormentas. Se le representa como un hombre anciano y barbudo que cabalga sobre las nubes, lanzando rayos y granizo. Cuando los niños no respetan el campo o la naturaleza, el Nuberu descarga su ira en forma de tormentas devastadoras.",
+      "pais": 6,
+      "arquetipo": 2
     }
   },
   {
@@ -625,9 +610,9 @@
     "pk": 14,
     "fields": {
       "nombre": "Brownie",
-      "descripcion_breve": "Pequeño ser hogareño que realiza labores domésticas durante la noche a cambio de comida y respeto.",
-      "descripcion_detallada": "",
-      "pais": 8,
+      "descripcion_breve": "Pequeño ser servicial que cuida de los niños y realiza tareas domésticas por la noche.",
+      "descripcion_detallada": "El Brownie es una criatura del folclore escocés conocido por su naturaleza trabajadora y servicial. Durante la noche, mientras la familia duerme, el Brownie realiza tareas del hogar y cuida de los niños pequeños. Sin embargo, si se siente menospreciado o se le ofrecen regalos, puede volverse travieso o abandonar la casa para siempre.",
+      "pais": 7,
       "arquetipo": 5
     }
   },
@@ -636,8 +621,8 @@
     "pk": 15,
     "fields": {
       "nombre": "Bean Nighe",
-      "descripcion_breve": "Lavandera fantasma que lava las mortajas de quienes van a morir, apareciendo cerca de arroyos solitarios.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Lavandera fantasmal que presagia desgracias y atrae a los niños al agua.",
+      "descripcion_detallada": "La Bean Nighe, o lavandera de las mortajas, es una aparición del folclore escocés e irlandés que se encuentra lavando ropa ensangrentada en los arroyos. Se aparece a los viajeros solitarios, especialmente niños, a quienes puede atraer hacia las aguas profundas. Se dice que es el fantasma de una mujer que falleció durante el parto y ahora cumple una condena eterna.",
       "pais": 8,
       "arquetipo": 3
     }
@@ -647,9 +632,9 @@
     "pk": 16,
     "fields": {
       "nombre": "Selkie",
-      "descripcion_breve": "Foca que muda su piel para volverse humana y atrae a los niños con su canto hipnótico junto al mar.",
-      "descripcion_detallada": "",
-      "pais": 8,
+      "descripcion_breve": "Criatura marina que cambia de forma y consuela a los niños solitarios en la costa.",
+      "descripcion_detallada": "Las Selkies son criaturas del folclore celta que viven como focas en el mar pero pueden desprenderse de su piel para caminar en tierra firme como humanos. Con frecuencia se acercan a los niños solitarios que juegan en la costa, ofreciéndoles compañía y consuelo. Sus historias hablan de amores trágicos entre humanos y selkies.",
+      "pais": 7,
       "arquetipo": 3
     }
   },
@@ -658,10 +643,10 @@
     "pk": 17,
     "fields": {
       "nombre": "Changeling",
-      "descripcion_breve": "Criatura feérica que las hadas dejan en lugar del bebé humano que roban de su cuna.",
-      "descripcion_detallada": "",
-      "pais": 9,
-      "arquetipo": 6
+      "descripcion_breve": "Hada que cambia a los bebés humanos por uno de los suyos mientras nadie mira.",
+      "descripcion_detallada": "El Changeling es una criatura del folclore irlandés que las hadas dejan en sustitución de un bebé humano que han robado. Los changelings suelen mostrar comportamientos extraños, enfermedad constante o sabiduría prematura. Las familias intentaban recuperar a su verdadero hijo mediante rituales o tratando bien al changeling para aplacar a las hadas.",
+      "pais": 8,
+      "arquetipo": 4
     }
   },
   {
@@ -669,9 +654,9 @@
     "pk": 18,
     "fields": {
       "nombre": "Leshy",
-      "descripcion_breve": "Espíritu del bosque que confunde y secuestra a los niños que se adentran demasiado en la foresta.",
-      "descripcion_detallada": "",
-      "pais": 15,
+      "descripcion_breve": "Espíritu del bosque que extravía a los niños que se adentran demasiado en la naturaleza.",
+      "descripcion_detallada": "El Leshy es el espíritu guardián de los bosques en la mitología eslava. Puede cambiar de tamaño, desde la altura de un árbol hasta la de una brizna de hierba. Se dedica a desorientar a los viajeros y a los niños que se adentran demasiado en el bosque, haciéndoles perder el camino. Sin embargo, protege a los animales y castiga a quienes dañan la naturaleza sin necesidad.",
+      "pais": 9,
       "arquetipo": 2
     }
   },
@@ -680,9 +665,9 @@
     "pk": 19,
     "fields": {
       "nombre": "Domovói",
-      "descripcion_breve": "Espíritu del hogar que protege la casa y a los niños que en ella habitan si se le respeta.",
-      "descripcion_detallada": "",
-      "pais": 15,
+      "descripcion_breve": "Espíritu protector del hogar ruso que vela por los niños y la familia.",
+      "descripcion_detallada": "El Domovói es un espíritu doméstico de la tradición eslava que reside detrás de la estufa o en el umbral de la casa. Protege a la familia, especialmente a los niños pequeños, de los malos espíritus y las desgracias. Si la familia lo trata con respeto, dejándole ofrendas de pan y leche, el Domovói asegura la prosperidad del hogar.",
+      "pais": 9,
       "arquetipo": 5
     }
   },
@@ -691,9 +676,9 @@
     "pk": 20,
     "fields": {
       "nombre": "Tomte",
-      "descripcion_breve": "Gnomo anciano que cuida las granjas y protege a los niños de los peligros de la noche.",
-      "descripcion_detallada": "",
-      "pais": 12,
+      "descripcion_breve": "Pequeño guardián de granjas y protector de los niños en la tradición nórdica.",
+      "descripcion_detallada": "El Tomte, también conocido como Nisse en Dinamarca, es una criatura del folclore escandinavo que cuida las granjas y sus habitantes. Es un ser pequeño, barbudo y con gorro rojo que vigila especialmente a los niños, asegurándose de que estén a salvo. Durante la noche, cuando todos duermen, el Tomte realiza pequeñas tareas y protege el hogar de los peligros.",
+      "pais": 10,
       "arquetipo": 5
     }
   },
@@ -702,8 +687,8 @@
     "pk": 21,
     "fields": {
       "nombre": "La Llorona",
-      "descripcion_breve": "Espíritu de madre que llora por sus hijos perdidos y vaga cerca de ríos, atrayendo a los niños con su lamento.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Alma en pena de una madre que llora y busca a sus hijos perdidos cerca del agua.",
+      "descripcion_detallada": "La Llorona es una de las leyendas más populares de México y toda Latinoamérica. Es el espectro de una mujer que vaga por ríos y calles lamentándose, llorando por sus hijos a quienes ella misma ahogó en un arranque de locura. Se aparece a los niños que andan solos de noche, confundiéndolos con sus propios hijos y tratando de llevárselos al agua.",
       "pais": 17,
       "arquetipo": 3
     }
@@ -713,8 +698,8 @@
     "pk": 22,
     "fields": {
       "nombre": "El Cuco",
-      "descripcion_breve": "Monstruo que se oculta en la oscuridad para llevarse a los niños que no obedecen a sus padres.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ser de la oscuridad que castiga a los niños que no obedecen a sus padres.",
+      "descripcion_detallada": "El Cuco es una de las figuras de miedo más tradicionales de México, similar al Coco español. Se oculta en los rincones oscuros de la casa, especialmente debajo de la cama o dentro del armario, esperando a los niños que no quieren dormir. Los padres lo mencionan para infundir disciplina, advirtiendo que el Cuco vendrá por ellos si no se portan bien.",
       "pais": 17,
       "arquetipo": 2
     }
@@ -724,8 +709,8 @@
     "pk": 23,
     "fields": {
       "nombre": "El Familiar",
-      "descripcion_breve": "Ser nocturno que ataca a los niños que deambulan solos por la noche, robándolos para siempre.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Monstruo de los ingenios azucareros que castiga a los niños desobedientes.",
+      "descripcion_detallada": "El Familiar es una criatura del folclore argentino, especialmente de las provincias del noroeste como Tucumán y Salta. Se le describe como un monstruo de grandes ojos brillantes y cuerpo peludo que habita en los cañaverales y asusta a los niños que se acercan a los ingenios azucareros. Su leyenda se utilizaba para mantener a los niños alejados de la maquinaria peligrosa.",
       "pais": 18,
       "arquetipo": 2
     }
@@ -735,8 +720,8 @@
     "pk": 24,
     "fields": {
       "nombre": "Patasola",
-      "descripcion_breve": "Mujer de una sola pierna que seduce a los niños en la selva para devorarlos en su guarida.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Mujer de una sola pierna que asusta a los niños y viajeros en la selva colombiana.",
+      "descripcion_detallada": "La Patasola es una leyenda del folclore colombiano, una mujer de extraordinaria belleza pero con una sola pierna que termina en un garfio o pezuña. Habita en las selvas y montañas, donde seduce a los viajeros y niños para luego devorarlos. Se dice que fue una mujer que maldijo a sus hijos y fue condenada a vagar eternamente.",
       "pais": 19,
       "arquetipo": 2
     }
@@ -746,10 +731,10 @@
     "pk": 25,
     "fields": {
       "nombre": "Madremonte",
-      "descripcion_breve": "Guardiana de la naturaleza que castiga a quienes dañan el bosque, especialmente a niños que maltratan animales.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Guardiana de los bosques y las aguas que castiga a quienes dañan la naturaleza.",
+      "descripcion_detallada": "La Madremonte, también conocida como Marimonda, es una deidad protectora de la naturaleza en el folclore colombiano. Se aparece como una mujer corpulenta cubierta de musgo y hojas que protege los bosques, ríos y animales. Castiga a los niños y adultos que maltratan el medio ambiente, provocando niebla espesa para desorientarlos.",
       "pais": 19,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -757,8 +742,8 @@
     "pk": 26,
     "fields": {
       "nombre": "Mohán",
-      "descripcion_breve": "Hechicero acuático de larga cabellera que atrae a los niños a los ríos con su canto hipnótico.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ser de los ríos colombianos que encanta a los niños y los atrae al agua.",
+      "descripcion_detallada": "El Mohán es una criatura del folclore colombiano que habita en los ríos, lagunas y cascadas. Se le describe como un hombre salvaje de larga cabellera y barba, con ojos brillantes y cuerpo cubierto de vello. Toca instrumentos musicales para hipnotizar a los niños y atraerlos al agua, donde los mantiene cautivos en su reino subacuático.",
       "pais": 19,
       "arquetipo": 3
     }
@@ -768,8 +753,8 @@
     "pk": 27,
     "fields": {
       "nombre": "Pombero",
-      "descripcion_breve": "Duende del monte que protege a los animales y a los niños perdidos, guiándolos de vuelta a casa.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Duende protector de los bosques que cuida a los niños pero castiga a los malvados.",
+      "descripcion_detallada": "El Pombero es una criatura del folclore guaraní, muy presente en Paraguay y el norte argentino. Es un duende pequeño y peludo que habita en el monte y protege a los animales y la naturaleza. Con los niños tiene un comportamiento ambiguo: puede cuidarlos y guiarlos si son respetuosos, o asustarlos y extraviarlos si se portan mal o dañan el bosque.",
       "pais": 20,
       "arquetipo": 5
     }
@@ -779,8 +764,8 @@
     "pk": 28,
     "fields": {
       "nombre": "Kurupí",
-      "descripcion_breve": "Ser de los pies hacia atrás que secuestra a los niños que se internan solos en el monte.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ser mitológico temido que castiga a los niños desobedientes en la mitología guaraní.",
+      "descripcion_detallada": "El Kurupí es una figura del folclore guaraní de Paraguay, representado como un ser deforme con los pies hacia atrás y una larga cola. Habita en los bosques y es conocido por castigar a los niños que desobedecen a sus padres o se adentran solos en la selva. Su apariencia grotesca servía como advertencia para mantener a los niños cerca del hogar.",
       "pais": 20,
       "arquetipo": 2
     }
@@ -790,8 +775,8 @@
     "pk": 29,
     "fields": {
       "nombre": "Yasy Yateré",
-      "descripcion_breve": "Duende rubio de los yerbatales que atrae a los niños con silbidos y los pierde en el monte.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ser que secuestra a los niños que se quedan solos durante la siesta.",
+      "descripcion_detallada": "El Yasy Yateré es un duende del folclore guaraní de Paraguay y el noreste argentino. Se aparece durante las horas de la siesta, cuando el sol está más fuerte, y busca a los niños que se quedan solos para llevárselos a su morada en el monte. Se le representa como un niño rubio con sombrero de paja que porta un bastón de oro.",
       "pais": 20,
       "arquetipo": 2
     }
@@ -801,8 +786,8 @@
     "pk": 30,
     "fields": {
       "nombre": "Pihuchén",
-      "descripcion_breve": "Ser alado que chupa la sangre de niños indefensos durante la noche, similar a un vampiro.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Criatura vampírica de la mitología mapuche que se alimenta de la sangre de los niños.",
+      "descripcion_detallada": "El Pihuchén es un ser de la mitología mapuche de Chile, descrito como una criatura alada con cuerpo de serpiente y cabeza de ave. Durante la noche, entra sigilosamente en las casas para alimentarse de la sangre de los niños mientras duermen. Antiguamente se utilizaba su leyenda para explicar la muerte súbita de infantes y mantener a los niños protegidos durante la noche.",
       "pais": 21,
       "arquetipo": 1
     }
@@ -812,10 +797,10 @@
     "pk": 31,
     "fields": {
       "nombre": "Tue-Tué",
-      "descripcion_breve": "Bruja que se transforma en ave nocturna y ataca a los niños malos mientras duermen.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Brujo que se transforma en ave y lleva mensajes de mal augurio para los niños.",
+      "descripcion_detallada": "El Tue-Tué es una figura del folclore chilote en Chile, un brujo poderoso que tiene la capacidad de transformarse en un ave nocturna. Su canto es considerado un presagio de desgracia, especialmente para los niños pequeños. Se dice que cuando un Tue-Tué se posa sobre el techo de una casa, anuncia enfermedad o desgracia para los infantes del hogar.",
       "pais": 21,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -823,8 +808,8 @@
     "pk": 32,
     "fields": {
       "nombre": "Trauco",
-      "descripcion_breve": "Duende deforme que habita en los bosques del sur y seduce o secuestra a niños descuidados.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ser del bosque chilote que encanta a los niños y los extravía en el monte.",
+      "descripcion_detallada": "El Trauco es una criatura del folclore de Chiloé, Chile, descrito como un ser pequeño, deforme y con un enorme sombrero cónico. Habita en los bosques y tiene la capacidad de lanzar un hechizo con su mirada que hace que los niños se pierdan y no puedan encontrar el camino de regreso. Su leyenda se usaba para explicar desapariciones en los bosques.",
       "pais": 21,
       "arquetipo": 2
     }
@@ -834,10 +819,10 @@
     "pk": 33,
     "fields": {
       "nombre": "Fiura",
-      "descripcion_breve": "Mujer salvaje de largos cabellos que ataca a los niños que desobedecen a sus padres en el bosque.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Criatura femenina que hechiza a niños y adultos en los bosques de Chiloé.",
+      "descripcion_detallada": "La Fiura es una criatura del folclore chilote, descrita como una mujer de gran belleza pero con un olor fétido y aliento pestilente. Habita en los bosques y encanta a los niños que se adentran solos en la naturaleza, llevándolos a cuevas ocultas. Se dice que es la esposa del Trauco y juntos forman una temible pareja de espíritus del bosque.",
       "pais": 21,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -845,8 +830,8 @@
     "pk": 34,
     "fields": {
       "nombre": "Caleuche",
-      "descripcion_breve": "Barco fantasma que navega por los canales del sur atrayendo a los niños con luces y música.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Barco fantasma que navega los mares de Chiloé atrayendo a los niños hacia el océano.",
+      "descripcion_detallada": "El Caleuche es un misterioso barco fantasma del folclore chilote que aparece durante la noche navegando por los mares del sur de Chile. Se dice que está tripulado por brujos y almas de naufragados, y que emite música y luces brillantes para atraer a los niños curiosos hacia el mar. Quienes se suben al Caleuche son llevados a un mundo submarino del que no regresan.",
       "pais": 21,
       "arquetipo": 3
     }
@@ -856,10 +841,10 @@
     "pk": 35,
     "fields": {
       "nombre": "Chonchón",
-      "descripcion_breve": "Cabeza con grandes orejas que vuela emitiendo un canto fúnebre anunciando desgracia a niños desobedientes.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Cabeza voladora de brujo que emite sonidos aterradores y asusta a los niños.",
+      "descripcion_detallada": "El Chonchón es una criatura del folclore chileno, especialmente de la zona centro-sur. Se trata de la cabeza de un brujo que se separa de su cuerpo y vuela emitiendo un característico sonido 'tue-tue-tue'. Aparece durante la noche para asustar a los niños desobedientes que andan fuera de casa a altas horas. Escucharlo cerca es señal de mala suerte.",
       "pais": 21,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -867,8 +852,8 @@
     "pk": 36,
     "fields": {
       "nombre": "Sachamama",
-      "descripcion_breve": "Serpiente gigante de la amazonía que devora a todo aquel que perturbe la selva, incluyendo niños.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Serpiente devoradora de la selva amazónica que se traga a los niños descuidados.",
+      "descripcion_detallada": "La Sachamama es una criatura gigantesca de la mitología amazónica peruana, una serpiente de proporciones colosales que habita en los ríos y lagunas de la selva. Se camufla entre la vegetación y devora a los niños que se acercan demasiado a sus dominios. Se la considera dueña de la selva y castiga a quienes no respetan el equilibrio de la naturaleza.",
       "pais": 22,
       "arquetipo": 1
     }
@@ -878,8 +863,8 @@
     "pk": 37,
     "fields": {
       "nombre": "Tunche",
-      "descripcion_breve": "Espíritu selvático que silba anunciando su presencia y secuestra a los niños que maltratan la naturaleza.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Espíritu de la selva amazónica que castiga a los niños que se adentran en el monte.",
+      "descripcion_detallada": "El Tunche es un espíritu del folclore amazónico de Perú, un ser sobrenatural que protege la selva y castiga a quienes la dañan. Se le escucha antes de verlo, emitiendo un silbido aterrador que anuncia su presencia. Los niños que se adentran solos en la selva pueden ser víctimas del Tunche, que los desorienta y los lleva a lo más profundo del bosque.",
       "pais": 22,
       "arquetipo": 2
     }
@@ -889,8 +874,8 @@
     "pk": 38,
     "fields": {
       "nombre": "Madre de Agua",
-      "descripcion_breve": "Espíritu femenino de ríos y lagunas que atrae a los niños con su belleza para sumergirlos en las aguas.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ninfa acuática que atrae a los niños con su canto para llevarlos al fondo del río.",
+      "descripcion_detallada": "La Madre de Agua es una criatura del folclore colombiano y venezolano que habita en ríos, lagunas y cascadas. Se aparece como una mujer hermosa de larga cabellera que canta melodías hipnóticas para atraer a los niños hacia el agua. Una vez que los niños se acercan, los sumerge en las profundidades y nunca más se les vuelve a ver.",
       "pais": 19,
       "arquetipo": 3
     }
@@ -900,8 +885,8 @@
     "pk": 39,
     "fields": {
       "nombre": "Duende de los Cerros",
-      "descripcion_breve": "Pequeño ser de los Andes que juega con los niños pero los pierde en las montañas si no lo respetan.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Espíritu de las montañas peruanas que extravía a los niños que juegan solos.",
+      "descripcion_detallada": "El Duende de los Cerros es una criatura del folclore andino peruano que habita en las colinas y montañas. Se le describe como un hombre pequeño con sombrero grande que toca una flauta para encantar a los niños. Aquellos que lo siguen se pierden en los cerros y no encuentran el camino de regreso a casa. Protege los tesoros ocultos de la montaña.",
       "pais": 22,
       "arquetipo": 2
     }
@@ -911,8 +896,8 @@
     "pk": 40,
     "fields": {
       "nombre": "Alux",
-      "descripcion_breve": "Pequeño duende maya que protege los hogares y las milpas, recompensando a los niños que ayudan en casa.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Duende maya protector de los campos y los niños que juegan en la milpa.",
+      "descripcion_detallada": "El Alux es una criatura de la mitología maya de la península de Yucatán, un pequeño duende de barro que habita en los campos de cultivo y las ruinas antiguas. Protege la milpa y a los niños que juegan en ella, pero puede volverse travieso si se le falta el respeto. Los mayas solían construir pequeñas casas para ellos y ofrecerles ofrendas.",
       "pais": 17,
       "arquetipo": 5
     }
@@ -922,9 +907,9 @@
     "pk": 41,
     "fields": {
       "nombre": "Wendigo",
-      "descripcion_breve": "Espíritu devorador de los bosques fríos que posee a quienes se entregan al canibalismo, cazando niños.",
-      "descripcion_detallada": "",
-      "pais": 27,
+      "descripcion_breve": "Monstruo devorador de los bosques canadienses que se alimenta de carne humana.",
+      "descripcion_detallada": "El Wendigo es una criatura de las leyendas de los pueblos algonquinos de Canadá, un espíritu malévolo asociado con el canibalismo y el invierno eterno. Se describe como una bestia esquelética y gigantesca con un insaciable apetito por la carne humana, especialmente la de los niños. Una persona que recurre al canibalismo se transforma en un Wendigo, condenada a vagar hambrienta eternamente.",
+      "pais": 25,
       "arquetipo": 1
     }
   },
@@ -933,9 +918,9 @@
     "pk": 42,
     "fields": {
       "nombre": "Skinwalker",
-      "descripcion_breve": "Hechicero que se transforma en animal para acechar y secuestrar a niños que desobedecen las tradiciones.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Brujo cambiante de la tradición navajo que aterroriza a niños y adultos.",
+      "descripcion_detallada": "El Skinwalker es una figura de la mitología navajo en Estados Unidos, un brujo malvado con la capacidad de transformarse en cualquier animal. Se dice que utiliza estas habilidades para causar daño a sus víctimas, especialmente a los niños desobedientes. Hablar de ellos se considera tabú en la cultura navajo, pues invocarlos podría atraer su atención.",
+      "pais": 26,
       "arquetipo": 2
     }
   },
@@ -944,10 +929,10 @@
     "pk": 43,
     "fields": {
       "nombre": "Pukwudgie",
-      "descripcion_breve": "Pequeño ser pícaro de la tradición algonquina que secuestra niños y juega bromas peligrosas.",
-      "descripcion_detallada": "",
-      "pais": 28,
-      "arquetipo": 8
+      "descripcion_breve": "Duende peligroso de la tradición algonquina que asusta y causa problemas a los niños.",
+      "descripcion_detallada": "Los Pukwudgies son criaturas del folclore de los nativos americanos wampanoag, descritos como seres pequeños de rostro humano y orejas puntiagudas. Son conocidos por ser impredecibles y peligrosos: pueden ser amistosos o malévolos según su estado de ánimo. Secuestran niños, juegan bromas pesadas y lanzan flechas envenenadas con sus poderes mágicos.",
+      "pais": 26,
+      "arquetipo": 2
     }
   },
   {
@@ -955,9 +940,9 @@
     "pk": 44,
     "fields": {
       "nombre": "Thunderbird",
-      "descripcion_breve": "Ave gigante protectora que ahuyenta a los espíritus malignos y protege a los niños de las tormentas.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Ave gigante protectora de los cielos que vela por los niños de las tribus nativas.",
+      "descripcion_detallada": "El Thunderbird es una poderosa criatura espiritual de los pueblos indígenas de Norteamérica, un ave gigante que produce truenos al batir sus alas y relámpagos al parpadear. Es considerado un protector benevolente que cuida a los niños y castiga a las serpientes y espíritus malignos que amenazan a las comunidades. Su imagen se encuentra en tótems y arte sacro.",
+      "pais": 26,
       "arquetipo": 5
     }
   },
@@ -966,9 +951,9 @@
     "pk": 45,
     "fields": {
       "nombre": "Water Babies",
-      "descripcion_breve": "Espíritus de niños fallecidos que habitan en ríos y lagos, atrayendo a otros niños a su morada acuática.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Espíritus acuáticos de niños que atraen a otros niños hacia lagos y ríos.",
+      "descripcion_detallada": "Los Water Babies son criaturas del folclore de las tribus paiute y shoshone de Norteamérica. Se trata de los espíritus de niños que fallecieron ahogados y ahora habitan en lagos, ríos y manantiales. Aparecen como niños pequeños jugando en la orilla del agua e invitan a otros niños a unirse a ellos, llevándolos a las profundidades acuáticas.",
+      "pais": 26,
       "arquetipo": 3
     }
   },
@@ -977,9 +962,9 @@
     "pk": 46,
     "fields": {
       "nombre": "Rawhead",
-      "descripcion_breve": "Monstruo de sangre con cabeza descarnada que acecha los sótanos y armarios para llevarse a niños desobedientes.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Monstruo disciplinario que castiga a los niños desobedientes en la tradición estadounidense.",
+      "descripcion_detallada": "Rawhead es una figura del folclore del sur de Estados Unidos, un monstruo que habita en sótanos, armarios y lugares oscuros. Se le describe como una criatura sanguinaria con la cabeza descarnada que viene a castigar a los niños que se portan mal. Su nombre completo, Rawhead and Bloody Bones, refleja su naturaleza aterradora y se utilizaba para infundir disciplina.",
+      "pais": 26,
       "arquetipo": 2
     }
   },
@@ -988,9 +973,9 @@
     "pk": 47,
     "fields": {
       "nombre": "Tommyknocker",
-      "descripcion_breve": "Pequeños duendes mineros que protegen a los niños que trabajan en las minas, advirtiendo de peligros.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Duende minero que protege a los niños de los peligros de las minas abandonadas.",
+      "descripcion_detallada": "Los Tommyknockers son criaturas del folclore de los mineros de Cornualles que emigraron a Estados Unidos. Son pequeños duendes que habitan en las minas y anuncian peligros golpeando las paredes. Protegen a los niños curiosos que se acercan a minas abandonadas, ahuyentándolos con ruidos y luces. Si se les respeta y agradece, ayudan a encontrar vetas de mineral.",
+      "pais": 26,
       "arquetipo": 5
     }
   },
@@ -999,10 +984,10 @@
     "pk": 48,
     "fields": {
       "nombre": "Night Hag",
-      "descripcion_breve": "Bruja nocturna que se sienta sobre el pecho de los niños mientras duermen, causando pesadillas y parálisis.",
-      "descripcion_detallada": "",
-      "pais": 28,
-      "arquetipo": 8
+      "descripcion_breve": "Espíritu de pesadillas que se sienta sobre el pecho de los niños mientras duermen.",
+      "descripcion_detallada": "La Night Hag es una figura del folclore estadounidense y europeo, un espíritu maligno que visita a las personas durante la noche mientras duermen. Se especializa en aterrorizar a los niños, sentándose sobre su pecho y provocando parálisis del sueño y pesadillas. Su presencia se asocia con la sensación de opresión en el pecho y la incapacidad de moverse o gritar.",
+      "pais": 26,
+      "arquetipo": 2
     }
   },
   {
@@ -1010,9 +995,9 @@
     "pk": 49,
     "fields": {
       "nombre": "Jersey Devil",
-      "descripcion_breve": "Criatura alada que habita los bosques de Nueva Jersey y secuestra a niños que vagan solos de noche.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Monstruo alado que aterroriza los bosques de Nueva Jersey y asusta a los niños.",
+      "descripcion_detallada": "El Jersey Devil es una criatura legendaria del estado de Nueva Jersey en Estados Unidos. Se describe como una bestia alada con cabeza de caballo, cuernos y pezuñas hendidas que habita en los bosques de Pine Barrens. Aunque no se enfoca específicamente en niños, su leyenda se usa para advertir a los niños que no se adentren en el bosque por la noche.",
+      "pais": 26,
       "arquetipo": 2
     }
   },
@@ -1021,9 +1006,9 @@
     "pk": 50,
     "fields": {
       "nombre": "Mishipeshu",
-      "descripcion_breve": "Pantera acuática con cuernos de ciervo que habita el Lago Superior y atrae a niños a las aguas heladas.",
-      "descripcion_detallada": "",
-      "pais": 28,
+      "descripcion_breve": "Espíritu felino acuático que habita en los Grandes Lagos y atrae a los niños al agua.",
+      "descripcion_detallada": "Mishipeshu, también conocido como el Gran Felino Acuático, es una criatura de la mitología de los pueblos ojibwe de la región de los Grandes Lagos. Tiene cuerpo de felino cubierto de escamas, cuernos y una cola de látigo. Habita en las aguas profundas y protege el cobre y los minerales, atrayendo a los niños curiosos hacia las aguas heladas del lago Superior.",
+      "pais": 26,
       "arquetipo": 3
     }
   },
@@ -1032,10 +1017,10 @@
     "pk": 51,
     "fields": {
       "nombre": "Namahage",
-      "descripcion_breve": "Demonios que bajan de las montañas en Año Nuevo para castigar a los niños perezosos y desobedientes.",
-      "descripcion_detallada": "",
-      "pais": 29,
-      "arquetipo": 8
+      "descripcion_breve": "Ogros japoneses que vigilan a los niños y castigan a los perezosos en Año Nuevo.",
+      "descripcion_detallada": "Los Namahage son deidades ogro del folclore de la prefectura de Akita en Japón, que visitan los hogares durante la víspera de Año Nuevo. Visten máscaras demoníacas y portan cuchillos, preguntando si hay niños llorones o desobedientes en la casa. Amenazan con llevarse a los niños perezosos pero, tras la intervención de los padres, se van dejando bendiciones y buena suerte.",
+      "pais": 28,
+      "arquetipo": 2
     }
   },
   {
@@ -1043,9 +1028,9 @@
     "pk": 52,
     "fields": {
       "nombre": "Kappa",
-      "descripcion_breve": "Duende acuático de ríos japoneses que atrae a los niños al agua y los arrastra a su guarida.",
-      "descripcion_detallada": "",
-      "pais": 29,
+      "descripcion_breve": "Criatura acuática japonesa que ahoga a los niños que se acercan a ríos y estanques.",
+      "descripcion_detallada": "El Kappa es un yōkai del folclore japonés que habita en ríos y estanques. Tiene aspecto de tortuga con pico, caparazón y una cavidad en la cabeza llena de agua que le da su poder. Atrae a los niños al agua para ahogarlos y devorarlos, aunque también es conocido por su amor a los pepinos y por ser derrotado por quienes conocen su debilidad: derramar el agua de su cabeza.",
+      "pais": 28,
       "arquetipo": 3
     }
   },
@@ -1054,9 +1039,9 @@
     "pk": 53,
     "fields": {
       "nombre": "Tengu",
-      "descripcion_breve": "Criatura alada mitad hombre mitad cuervo que secuestra a niños que se pierden en las montañas.",
-      "descripcion_detallada": "",
-      "pais": 29,
+      "descripcion_breve": "Deidad japonesa mitad hombre mitad ave que secuestra o enseña a los niños.",
+      "descripcion_detallada": "Los Tengu son criaturas del folclore japonés, representados como seres con características de ave y humano, con largas narices y alas. Viven en las montañas y bosques profundos. Aunque pueden secuestrar a niños desobedientes, también son conocidos por enseñar artes marciales y sabiduría a aquellos que demuestran respeto. Son tanto protectores de la montaña como castigadores de la arrogancia.",
+      "pais": 28,
       "arquetipo": 2
     }
   },
@@ -1065,10 +1050,10 @@
     "pk": 54,
     "fields": {
       "nombre": "Yuki-onna",
-      "descripcion_breve": "Mujer de nieve que aparece en tormentas invernales y hechiza a los niños para que la sigan a la muerte.",
-      "descripcion_detallada": "",
-      "pais": 29,
-      "arquetipo": 8
+      "descripcion_breve": "Espíritu invernal que aparece durante las tormentas de nieve y atrae a los niños al frío.",
+      "descripcion_detallada": "La Yuki-onna, o mujer de la nieve, es un yōkai del folclore japonés que aparece durante las noches de intensas nevadas. Es una mujer de belleza etérea, vestida con un quimono blanco y piel tan pálida que se confunde con la nieve. Atrae a los viajeros y niños perdidos en la tormenta para llevarlos a un sueño eterno de hielo, congelándolos con su aliento helado.",
+      "pais": 28,
+      "arquetipo": 2
     }
   },
   {
@@ -1076,9 +1061,9 @@
     "pk": 55,
     "fields": {
       "nombre": "Zashiki-warashi",
-      "descripcion_breve": "Espíritu infantil de cabello corto que trae buena fortuna a los hogares donde se le respeta.",
-      "descripcion_detallada": "",
-      "pais": 29,
+      "descripcion_breve": "Niño espíritu de la suerte que trae prosperidad a los hogares donde habita.",
+      "descripcion_detallada": "El Zashiki-warashi es un yōkai del folclore japonés, el espíritu de un niño de mejillas sonrosadas que habita en las habitaciones de tatami de las casas antiguas. Se dice que trae buena fortuna y prosperidad a la familia que lo acoge, aunque es travieso y mueve objetos o hace ruidos por la noche. Si el Zashiki-warashi abandona la casa, la familia se arruina.",
+      "pais": 28,
       "arquetipo": 4
     }
   },
@@ -1087,10 +1072,10 @@
     "pk": 56,
     "fields": {
       "nombre": "Aka Manto",
-      "descripcion_breve": "Espíritu que acecha en los baños escolares y ofrece papel rojo o azul a los niños, castigando según su elección.",
-      "descripcion_detallada": "",
-      "pais": 29,
-      "arquetipo": 8
+      "descripcion_breve": "Aparición de los baños escolares que pregunta a los niños qué color de capa prefieren.",
+      "descripcion_detallada": "Aka Manto, o capa roja, es una leyenda urbana japonesa que habita en los baños de las escuelas. Cuando un niño está solo en el baño, Aka Manto aparece y le pregunta si prefiere una capa roja o una azul. Elegir la roja significa ser desangrado hasta morir, y la azul significa ser estrangulado. Si se ignora la pregunta, se salva la vida.",
+      "pais": 28,
+      "arquetipo": 2
     }
   },
   {
@@ -1098,10 +1083,10 @@
     "pk": 57,
     "fields": {
       "nombre": "Pontianak",
-      "descripcion_breve": "Espíritu femenino que seduce a los hombres y roba bebés recién nacidos de sus cunas.",
-      "descripcion_detallada": "",
-      "pais": 30,
-      "arquetipo": 6
+      "descripcion_breve": "Fantasma femenino que aterra a los niños en la tradición de Indonesia y Malasia.",
+      "descripcion_detallada": "La Pontianak, también conocida como Kuntilanak, es un espectro femenino del folclore del sudeste asiático, especialmente en Indonesia. Es el espíritu vengativo de una mujer que falleció durante el parto y ahora acecha a los vivos, especialmente a los niños. Se manifiesta como una mujer hermosa que oculta un agujero en su espalda y emite un llanto que se vuelve aterrador al acercarse.",
+      "pais": 29,
+      "arquetipo": 4
     }
   },
   {
@@ -1109,9 +1094,9 @@
     "pk": 58,
     "fields": {
       "nombre": "Toyol",
-      "descripcion_breve": "Espíritu de bebé no nacido que es usado como sirviente para robar y asustar a niños vivos.",
-      "descripcion_detallada": "",
-      "pais": 31,
+      "descripcion_breve": "Espíritu fetal del folclore malayo que los brujos usan para asustar o robar.",
+      "descripcion_detallada": "El Toyol es una criatura del folclore malayo e indonesio, un espíritu de un feto o bebé no nacido que ha sido resucitado mediante magia negra. Los brujos lo utilizan para robar o asustar a los enemigos. El Toyol tiene aspecto de niño pequeño de piel verde y grandes ojos, y aunque es temido, también se dice que se encariña con los niños de la casa donde habita.",
+      "pais": 30,
       "arquetipo": 4
     }
   },
@@ -1120,9 +1105,9 @@
     "pk": 59,
     "fields": {
       "nombre": "Penanggalan",
-      "descripcion_breve": "Cabeza voladora con vísceras colgantes que devora a niños recién nacidos y mujeres embarazadas.",
-      "descripcion_detallada": "",
-      "pais": 31,
+      "descripcion_breve": "Cabeza voladora devoradora del folclore malayo que se alimenta de niños.",
+      "descripcion_detallada": "La Penanggalan es una criatura del folclore malayo, una mujer que se separa su cabeza y vísceras del cuerpo para volar durante la noche en busca de víctimas. Sus órganos internos cuelgan debajo de la cabeza mientras vuela, y se alimenta de la sangre de los niños pequeños y las mujeres embarazadas. Se dice que se siente atraída por el olor del vinagre.",
+      "pais": 30,
       "arquetipo": 1
     }
   },
@@ -1131,9 +1116,9 @@
     "pk": 60,
     "fields": {
       "nombre": "Krasue",
-      "descripcion_breve": "Cabeza flotante con órganos internos expuestos que devora niños durante la noche en las aldeas.",
-      "descripcion_detallada": "",
-      "pais": 32,
+      "descripcion_breve": "Espíritu devorador que vaga por la noche alimentándose de niños en Tailandia.",
+      "descripcion_detallada": "El Krasue es una figura del folclore tailandés, un espíritu femenino que se aparece como una cabeza flotante con órganos internos colgando. Durante la noche, especialmente en las zonas rurales, el Krasue sale a buscar su alimento favorito: la sangre de los niños pequeños y los restos de comida. Se cree que es la maldición de una mujer que cometió pecados graves en vida.",
+      "pais": 31,
       "arquetipo": 1
     }
   },
@@ -1142,9 +1127,9 @@
     "pk": 61,
     "fields": {
       "nombre": "Phi Krasue",
-      "descripcion_breve": "Espíritu femenino flotante que se alimenta de carne y vísceras de niños descuidados.",
-      "descripcion_detallada": "",
-      "pais": 32,
+      "descripcion_breve": "Variante tailandesa del espíritu devorador que acecha a los niños en la noche.",
+      "descripcion_detallada": "Phi Krasue es una variante del Krasue en el folclore tailandés, igualmente representado como una cabeza flotante con vísceras colgantes y una luz fantasmal. Se esconde en los árboles durante el día y caza de noche, buscando específicamente a niños pequeños. Las familias tailandesas colocan plantas espinosas alrededor de sus casas para evitar que el Phi Krasue se acerque mientras los niños duermen.",
+      "pais": 31,
       "arquetipo": 1
     }
   },
@@ -1153,9 +1138,9 @@
     "pk": 62,
     "fields": {
       "nombre": "Nang Tani",
-      "descripcion_breve": "Espíritu femenino de los árboles de plátano que protege a los niños que juegan cerca de los templos.",
-      "descripcion_detallada": "",
-      "pais": 32,
+      "descripcion_breve": "Espíritu protector de los bananos que cuida a los niños en los huertos tailandeses.",
+      "descripcion_detallada": "Nang Tani es un espíritu femenino del folclore tailandés que habita en los bananos. Se la representa como una mujer joven vestida de verde que protege los cultivos y a los niños que juegan cerca. Aunque generalmente es benevolente, puede volverse vengativa si alguien daña su árbol o a los niños bajo su cuidado. Se le ofrecen ofrendas de flores y frutas.",
+      "pais": 31,
       "arquetipo": 5
     }
   },
@@ -1164,9 +1149,9 @@
     "pk": 63,
     "fields": {
       "nombre": "Rakshasa",
-      "descripcion_breve": "Demonio devorador de carne humana que acecha en los bosques para capturar y devorar niños.",
-      "descripcion_detallada": "",
-      "pais": 33,
+      "descripcion_breve": "Demonio devorador de la mitología hindú que se alimenta de niños y viajeros inocentes.",
+      "descripcion_detallada": "Los Rakshasas son poderosos demonios de la mitología hindú, conocidos por su naturaleza cruel y su apetito por la carne humana. Pueden cambiar de forma y poseen poderes mágicos para engañar a sus víctimas. Se alimentan especialmente de niños pequeños y viajeros solitarios, acechando en los bosques y lugares desolados. El rey demonio Ravana era el más poderoso de los rakshasas.",
+      "pais": 32,
       "arquetipo": 1
     }
   },
@@ -1175,10 +1160,10 @@
     "pk": 64,
     "fields": {
       "nombre": "Vetala",
-      "descripcion_breve": "Espíritu que posee cuerpos sin vida y castiga a los niños que profanan los lugares sagrados.",
-      "descripcion_detallada": "",
-      "pais": 33,
-      "arquetipo": 8
+      "descripcion_breve": "Espíritu que posee cuerpos sin vida y atormenta a los niños en la tradición india.",
+      "descripcion_detallada": "Los Vetalas son espíritus del folclore indio que habitan en cadáveres y lugares de cremación. Se dice que poseen los cuerpos de los muertos y los usan para vagar por la noche, aterrorizando a los vivos. Son conocidos por atormentar a los niños que se aventuran solos en la oscuridad, y pueden poseerlos si no se toman precauciones. Los mantras y rituales son la única protección.",
+      "pais": 32,
+      "arquetipo": 2
     }
   },
   {
@@ -1186,9 +1171,9 @@
     "pk": 65,
     "fields": {
       "nombre": "Jinn",
-      "descripcion_breve": "Ser de fuego sin humo que protege los hogares y a los niños si se les honra debidamente.",
-      "descripcion_detallada": "",
-      "pais": 35,
+      "descripcion_breve": "Ser de fuego que puede ser benévolo o malévolo según cómo se le trate.",
+      "descripcion_detallada": "Los Jinn son criaturas del folclore árabe y la tradición islámica, seres creados de fuego sin humo que habitan en un mundo paralelo al humano. Pueden ser benévolos, neutrales o malévolos. Algunos Jinn protegen a los niños y los hogares si se les respeta, mientras que otros pueden causar daño. Se cree que ciertos lugares como los baños o los cementerios están habitados por Jinn.",
+      "pais": 34,
       "arquetipo": 5
     }
   },
@@ -1197,9 +1182,9 @@
     "pk": 66,
     "fields": {
       "nombre": "Ghoul",
-      "descripcion_breve": "Demonio carroñero que devora niños en cementerios y lugares desolados durante la noche.",
-      "descripcion_detallada": "",
-      "pais": 35,
+      "descripcion_breve": "Necrófago devorador de los desiertos árabes que se alimenta de niños y cadáveres.",
+      "descripcion_detallada": "El Ghoul es una criatura del folclore árabe que habita en los cementerios y lugares desolados del desierto. Se alimenta de cadáveres humanos y especialmente de niños pequeños, a los que cava para extraer de sus tumbas. Puede cambiar de forma, adoptando la apariencia de un familiar para engañar a sus víctimas. Su nombre ha pasado a muchas lenguas para designar a los devoradores de muertos.",
+      "pais": 34,
       "arquetipo": 1
     }
   },
@@ -1208,10 +1193,10 @@
     "pk": 67,
     "fields": {
       "nombre": "Um Al Duwais",
-      "descripcion_breve": "Ser que azota a los niños con un látigo si se portan mal o no honran a sus padres.",
-      "descripcion_detallada": "",
-      "pais": 35,
-      "arquetipo": 8
+      "descripcion_breve": "Espectro castigador que azota a los niños desobedientes en el folclore emiratí.",
+      "descripcion_detallada": "Um Al Duwais es una figura del folclore de los Emiratos Árabes Unidos, una entidad fantasmal que castiga a los niños que no se portan bien. Se dice que es una mujer de aspecto aterrador que visita los hogares donde hay niños desobedientes y los azota con una vara. Su leyenda se utiliza como método disciplinario para mantener el buen comportamiento infantil en la cultura beduina.",
+      "pais": 34,
+      "arquetipo": 2
     }
   },
   {
@@ -1219,9 +1204,9 @@
     "pk": 68,
     "fields": {
       "nombre": "Huli Jing",
-      "descripcion_breve": "Zorro espiritual de nueve colas que seduce y extravía a los niños en los bosques encantados.",
-      "descripcion_detallada": "",
-      "pais": 34,
+      "descripcion_breve": "Zorra mágica de nueve colas que engaña a los niños para jugar trucos peligrosos.",
+      "descripcion_detallada": "La Huli Jing, o zorra de nueve colas, es una criatura de la mitología china que puede alcanzar la inmortalidad y la sabiduría tras mil años de cultivo espiritual. Puede transformarse en una hermosa mujer o en un niño para engañar a los humanos. A veces se lleva a los niños para jugar con ellos, pero sus juegos pueden ser peligrosos y desorientadores.",
+      "pais": 33,
       "arquetipo": 2
     }
   },
@@ -1230,9 +1215,9 @@
     "pk": 69,
     "fields": {
       "nombre": "Nian",
-      "descripcion_breve": "Bestia devoradora que emerge cada Año Nuevo para devorar niños, ahuyentada por petardos y color rojo.",
-      "descripcion_detallada": "",
-      "pais": 34,
+      "descripcion_breve": "Monstruo del Año Nuevo chino que devoraba niños hasta que lo ahuyentaron con ruido.",
+      "descripcion_detallada": "Nian es una bestia legendaria de la mitología china que emergía de las montañas cada Año Nuevo para devorar niños y ganado. Los aldeanos descubrieron que Nian temía el color rojo, el fuego y los ruidos fuertes. Por eso, durante el Año Nuevo chino se usan decoraciones rojas, petardos y tambores para ahuyentarlo. La tradición del Año Nuevo chino nació de esta leyenda.",
+      "pais": 33,
       "arquetipo": 1
     }
   },
@@ -1241,10 +1226,10 @@
     "pk": 70,
     "fields": {
       "nombre": "Mogwai",
-      "descripcion_breve": "Pequeños espíritus traviesos que causan problemas pero también protegen a los niños de peligros mayores.",
-      "descripcion_detallada": "",
-      "pais": 34,
-      "arquetipo": 7
+      "descripcion_breve": "Espíritu travieso de la mitología china que causa problemas cuando se le provoca.",
+      "descripcion_detallada": "Los Mogwai son criaturas del folclore chino, espíritus traviesos que pueden causar toda clase de travesuras y problemas a los humanos. Se dice que multiplican su número al contacto con el agua y se vuelven malignos si se les alimenta después de medianoche. Aunque no son inherentemente malvados, sus travesuras pueden poner en peligro a los niños que juegan con ellos sin cuidado.",
+      "pais": 33,
+      "arquetipo": 4
     }
   },
   {
@@ -1252,8 +1237,8 @@
     "pk": 71,
     "fields": {
       "nombre": "Tokoloshe",
-      "descripcion_breve": "Duende acuático que secuestra niños que se bañan solos en ríos y lagos durante la noche.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Duende maligno de la tradición zulú que ataca a los niños durante la noche.",
+      "descripcion_detallada": "El Tokoloshe es una criatura del folclore zulú y xhosa de Sudáfrica, un duende pequeño y malévolo que los brujos pueden invocar para causar daño. Ataca a las personas mientras duermen, especialmente a los niños, y se dice que succiona sus dedos de los pies. Para protegerse, muchas familias elevan sus camas sobre ladrillos pues el Tokoloshe es demasiado bajo para alcanzarlas.",
       "pais": 36,
       "arquetipo": 2
     }
@@ -1263,8 +1248,8 @@
     "pk": 72,
     "fields": {
       "nombre": "Grootslang",
-      "descripcion_breve": "Serpiente elefante gigante que habita cuevas profundas y devora niños que se aventuran en su territorio.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Criatura monstruosa sudafricana que devora a los niños que se aventuran en las cuevas.",
+      "descripcion_detallada": "El Grootslang, o gran serpiente, es una criatura del folclore sudafricano que habita en cuevas profundas, especialmente en la región de Richtersveld. Se describe como una bestia colosal con cuerpo de serpiente y cabeza de elefante, creada por los dioses pero considerada un error por su ferocidad. Devora a los niños y viajeros que se adentran en sus dominios subterráneos.",
       "pais": 36,
       "arquetipo": 1
     }
@@ -1274,8 +1259,8 @@
     "pk": 73,
     "fields": {
       "nombre": "Adze",
-      "descripcion_breve": "Bruja vampírica que se transforma en luciérnaga y devora niños pequeños durante la noche.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Vampiro folclórico de Ghana que se transforma en luciérnaga para atacar niños.",
+      "descripcion_detallada": "El Adze es una criatura vampírica del folclore de Ghana que puede transformarse en una luciérnaga o mosca de fuego para entrar sigilosamente en las casas. Durante la noche, ataca a los niños mientras duermen, chupando su sangre y causando enfermedades. Si un curandero logra capturar al Adze en su forma de insecto, la criatura se somete y se convierte en esclava del cazador.",
       "pais": 37,
       "arquetipo": 1
     }
@@ -1285,8 +1270,8 @@
     "pk": 74,
     "fields": {
       "nombre": "Asanbosam",
-      "descripcion_breve": "Criatura con ganchos de hierro por pies que cuelga de árboles para atrapar y devorar niños.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Depredador de niños del folclore de Ghana que habita en los árboles de la selva.",
+      "descripcion_detallada": "El Asanbosam es una criatura del folclore akan de Ghana que vive en las copas de los árboles de la selva tropical. Tiene dientes de hierro y garras afiladas con ganchos que usa para atrapar a los niños que pasan debajo. Se alimenta de su sangre y carne, y se dice que sus pies están volteados hacia atrás para confundir a quienes siguen su rastro.",
       "pais": 37,
       "arquetipo": 1
     }
@@ -1296,8 +1281,8 @@
     "pk": 75,
     "fields": {
       "nombre": "Sasabonsam",
-      "descripcion_breve": "Murciélago gigante con alas enormes que caza niños desde las copas de los árboles en la selva.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Monstruo del bosque de Ghana que caza niños desde las ramas de los árboles.",
+      "descripcion_detallada": "Sasabonsam es un monstruo vampírico del folclore akan de Ghana, considerado aún más temible que el Asanbosam. Habita en los árboles más altos del bosque y extiende sus largas piernas para atrapar a los niños que caminan solos por la selva. Se le representa con alas de murciélago, cabeza de animal y un apetito voraz por la sangre humana, especialmente la de los más pequeños.",
       "pais": 37,
       "arquetipo": 1
     }
@@ -1307,9 +1292,9 @@
     "pk": 76,
     "fields": {
       "nombre": "Abiku",
-      "descripcion_breve": "Espíritu de niño que nace y muere repetidamente, atormentando a sus padres con ciclos de pérdida.",
-      "descripcion_detallada": "",
-      "pais": 41,
+      "descripcion_breve": "Niño espíritu recurrente de la tradición yoruba que nace y muere cíclicamente.",
+      "descripcion_detallada": "Abiku es un concepto del folclore yoruba de Nigeria que se refiere al espíritu de un niño que muere antes de llegar a la adolescencia y renace una y otra vez en la misma familia, causando un ciclo infinito de dolor. Se cree que estos niños pertenecen a un grupo de espíritus del otro mundo. Los rituales y marcas corporales intentan romper el ciclo y retener al niño en el mundo terrenal.",
+      "pais": 38,
       "arquetipo": 4
     }
   },
@@ -1318,9 +1303,9 @@
     "pk": 77,
     "fields": {
       "nombre": "Mami Wata",
-      "descripcion_breve": "Diosa acuática de larga cabellera que atrae a los niños con su canto hacia las profundidades del río.",
-      "descripcion_detallada": "",
-      "pais": 41,
+      "descripcion_breve": "Deidad acuática que atrae a los niños al agua con su belleza y canto hipnótico.",
+      "descripcion_detallada": "Mami Wata es una poderosa deidad del agua venerada en gran parte del África occidental, especialmente en Nigeria. Se representa como una mujer hermosa con cola de pez o serpiente que habita en ríos y océanos. Atrae a los niños y adultos al agua con su canto hipnótico, ofreciendo riquezas y poder a cambio de su alma. Quienes la siguen nunca regresan igual.",
+      "pais": 38,
       "arquetipo": 3
     }
   },
@@ -1329,8 +1314,8 @@
     "pk": 78,
     "fields": {
       "nombre": "Ninki Nanka",
-      "descripcion_breve": "Dragón de los pantanos que secuestra niños que se acercan demasiado a las orillas del río Gambia.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ser reptiliano de los manglares gambianos que atrapa a los niños descuidados.",
+      "descripcion_detallada": "El Ninki Nanka es una criatura del folclore de Gambia y Senegal, un ser reptiliano de gran tamaño que habita en los manglares y ríos de la región. Se le describe con cuerpo de cocodrilo, cuello de jirafa y aliento de fuego. Atrapa a los niños que se aventuran solos cerca del agua y los arrastra a su guarida en el fondo del río para devorarlos.",
       "pais": 40,
       "arquetipo": 3
     }
@@ -1340,10 +1325,10 @@
     "pk": 79,
     "fields": {
       "nombre": "Impundulu",
-      "descripcion_breve": "Pájaro del trueno que ataca a los niños desobedientes con rayos y castigos celestiales.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Ave relámpago del folclore zulú que castiga a los niños desobedientes.",
+      "descripcion_detallada": "El Impundulu, o pájaro del trueno, es una criatura de la mitología zulú y xhosa de Sudáfrica. Es un ave gigante de colores brillantes que produce relámpagos con sus alas y truenos con su canto. Las brujas lo utilizan como familiar para castigar a los niños desobedientes y a los enemigos. Se dice que ataca durante las tormentas, llevándose a quienes han cometido faltas graves.",
       "pais": 36,
-      "arquetipo": 8
+      "arquetipo": 2
     }
   },
   {
@@ -1351,8 +1336,8 @@
     "pk": 80,
     "fields": {
       "nombre": "Aziza",
-      "descripcion_breve": "Pequeños espíritus benévolos del bosque que protegen a los niños cazadores y recolectores.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Seres benévolos de la selva que protegen a los niños perdidos y enseñan sabiduría.",
+      "descripcion_detallada": "Los Aziza son espíritus benévolos del folclore del pueblo fon de Benín. Son seres pequeños y luminosos que habitan en la selva y protegen a los niños perdidos, guiándolos de regreso a casa. También enseñan conocimientos sobre caza, medicina y magia a quienes son dignos de confianza. Se consideran intermediarios entre el mundo humano y el espiritual, siempre dispuestos a ayudar.",
       "pais": 39,
       "arquetipo": 5
     }
@@ -1362,8 +1347,8 @@
     "pk": 81,
     "fields": {
       "nombre": "Bunyip",
-      "descripcion_breve": "Monstruo de los pantanos que emerge del agua para devorar niños que se acercan a sus ciénagas.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Monstruo acuático australiano que habita en billabongs y atrapa a los niños.",
+      "descripcion_detallada": "El Bunyip es una criatura del folclore aborigen australiano que habita en billabongs, pantanos y ríos de Australia. Se describe de diversas formas: con cabeza de emú, cuerpo de buey y cola de pez, o como una bestia peluda con colmillos. Emerge del agua para atrapar a los niños que se acercan demasiado a la orilla y devorarlos. Su nombre significa demonio en varias lenguas aborígenes.",
       "pais": 42,
       "arquetipo": 3
     }
@@ -1373,8 +1358,8 @@
     "pk": 82,
     "fields": {
       "nombre": "Yara-ma-yha-who",
-      "descripcion_breve": "Pequeño ser rojo que cae de los árboles para succionar la sangre de niños que pasan bajo su sombra.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Criatura chupa-sangre del folclore aborigen australiano que acecha a los niños.",
+      "descripcion_detallada": "El Yara-ma-yha-who es una criatura del folclore de los aborígenes australianos que habita en las copas de los árboles de higuera. Tiene cuerpo de hombre pequeño, piel roja y áspera, cabeza enorme sin cuello y largos tentáculos en lugar de brazos. Se deja caer sobre los niños que pasan debajo para chuparles la sangre y luego los traga enteros, para después regurgitarlos vivos pero más pequeños.",
       "pais": 42,
       "arquetipo": 2
     }
@@ -1384,8 +1369,8 @@
     "pk": 83,
     "fields": {
       "nombre": "Mimi",
-      "descripcion_breve": "Espíritus elegantes de las rocas que enseñan a los niños aborígenes a cazar y pintar.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Espíritus delgados del arte rupestre que enseñan a los niños aborígenes habilidades ancestrales.",
+      "descripcion_detallada": "Los Mimi son espíritus del folclore aborigen de la Tierra de Arnhem en Australia. Se les representa como figuras extremadamente delgadas y ágiles que habitan en las grietas de las rocas. Enseñaron a los primeros humanos a cazar, cocinar y realizar ceremonias. Son protectores de la naturaleza y cuidan de los niños que respetan la tierra, guiándolos a lugares seguros.",
       "pais": 42,
       "arquetipo": 5
     }
@@ -1395,8 +1380,8 @@
     "pk": 84,
     "fields": {
       "nombre": "Taniwha",
-      "descripcion_breve": "Guardián acuático que protege los ríos y lagos, atrapando a niños que contaminan sus aguas.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Criatura acuática maorí que protege o devora según el comportamiento de los niños.",
+      "descripcion_detallada": "El Taniwha es una criatura de la mitología maorí de Nueva Zelanda que habita en ríos, lagos y cuevas submarinas. Puede ser tanto un protector benevolente de una tribu como un peligroso depredador. Los Taniwha protectores cuidan a los niños de la comunidad y los guían, mientras que los Taniwha malignos atrapan a los niños que se bañan solos y los arrastran a las profundidades.",
       "pais": 43,
       "arquetipo": 3
     }
@@ -1406,10 +1391,10 @@
     "pk": 85,
     "fields": {
       "nombre": "Patupaiarehe",
-      "descripcion_breve": "Hadas de piel pálida y cabello dorado que cambian bebés maoríes por sus propias crías.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Seres feéricos de la tradición maorí que habitan en bosques y montañas.",
+      "descripcion_detallada": "Los Patupaiarehe son criaturas del folclore maorí de Nueva Zelanda, descritos como seres de piel pálida y cabello rojo o rubio que habitan en los bosques profundos y las cimas de las montañas. Tocan música encantadora que atrae a los niños hacia sus dominios. Son especialmente activos al amanecer y al anochecer, y temen la luz del sol y el fuego. Pueden ser amistosos o peligrosos según su humor.",
       "pais": 43,
-      "arquetipo": 6
+      "arquetipo": 4
     }
   },
   {
@@ -1417,8 +1402,8 @@
     "pk": 86,
     "fields": {
       "nombre": "Menehune",
-      "descripcion_breve": "Pequeños constructores nocturnos que protegen los hogares y niños hawaiianos con su magia ancestral.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Constructores mágicos de la tradición hawaiana que protegen los hogares y a los niños.",
+      "descripcion_detallada": "Los Menehune son criaturas del folclore hawaiano, un pueblo legendario de pequeños constructores que vivían en las islas antes que los polinesios. Son duendes trabajadores que construyen estanques, templos y caminos durante la noche, y son conocidos por su timidez. Protegen a los niños que se pierden en el bosque y recompensan a quienes son amables con ellos con buena suerte.",
       "pais": 44,
       "arquetipo": 5
     }
@@ -1428,8 +1413,8 @@
     "pk": 87,
     "fields": {
       "nombre": "Mo'o",
-      "descripcion_breve": "Lagarto acuático gigante que atrae niños a los estanques sagrados con su canto hipnótico.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Espíritu guardián lagarto que protege los estanques y vigila a los niños hawaianos.",
+      "descripcion_detallada": "El Mo'o es una criatura de la mitología hawaiana, un espíritu que toma forma de lagarto o dragón gigante y habita en estanques, cascadas y lagunas. Actúa como guardián de las fuentes de agua dulce y protege a los niños que respetan la naturaleza. Sin embargo, si alguien contamina el agua o daña a los niños, el Mo'o se vuelve violento y arrastra a los culpables al fondo del agua.",
       "pais": 44,
       "arquetipo": 3
     }
@@ -1439,10 +1424,10 @@
     "pk": 88,
     "fields": {
       "nombre": "Kakamora",
-      "descripcion_breve": "Pequeños seres guerreros de las islas Salomón que viajan en cocos y juegan bromas a los niños.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Duendes salvajes de las Islas Salomón que capturan a los niños que se adentran en la selva.",
+      "descripcion_detallada": "Los Kakamora son criaturas del folclore de las Islas Salomón, descritos como pequeños seres peludos y salvajes que habitan en las profundidades de la selva. Son conocidos por ser extremadamente tímidos pero peligrosos si se sienten amenazados. Capturan a los niños que se aventuran solos en el bosque y los llevan a sus aldeas ocultas, donde los cuidan como si fueran suyos.",
       "pais": 45,
-      "arquetipo": 7
+      "arquetipo": 4
     }
   },
   {
@@ -1450,9 +1435,9 @@
     "pk": 89,
     "fields": {
       "nombre": "Te Wheke",
-      "descripcion_breve": "Pulpo gigante de ocho tentáculos que habita las profundidades y atrapa niños cerca de las costas.",
-      "descripcion_detallada": "",
-      "pais": 43,
+      "descripcion_breve": "Pulpo monstruoso de la mitología polinesia que atrapa a los niños en el mar.",
+      "descripcion_detallada": "Te Wheke es una criatura de la mitología polinesia, un pulpo gigante y monstruoso que habita en las aguas profundas del océano Pacífico. Se dice que usa sus largos tentáculos para alcanzar las canoas y las orillas, atrapando a los niños que juegan cerca del agua. En algunas leyendas, es un guardián del océano que castiga a quienes no respetan el mar y sus criaturas.",
+      "pais": 46,
       "arquetipo": 3
     }
   },
@@ -1461,10 +1446,10 @@
     "pk": 90,
     "fields": {
       "nombre": "Tupilaq",
-      "descripcion_breve": "Golem de huesos y piel creado por chamanes para castigar a los niños que rompen tabúes.",
-      "descripcion_detallada": "",
-      "pais": 46,
-      "arquetipo": 8
+      "descripcion_breve": "Ser mágico vengativo creado por chamanes inuit para castigar a los enemigos.",
+      "descripcion_detallada": "El Tupilaq es una criatura del folclore inuit de Groenlandia y el Ártico canadiense, creado por un chamán mediante magia negra a partir de huesos, piel y otros restos orgánicos. Se le da vida para que busque venganza contra un enemigo específico, pero si el Tupilaq encuentra a su víctima protegida por una magia más fuerte, se vuelve contra su creador. Puede adoptar diversas formas aterradoras.",
+      "pais": 27,
+      "arquetipo": 2
     }
   },
   {
@@ -1472,9 +1457,9 @@
     "pk": 91,
     "fields": {
       "nombre": "Hada Madrina",
-      "descripcion_breve": "Hada bondadosa que vela por los niños desde su nacimiento, concediendo dones y protección.",
-      "descripcion_detallada": "",
-      "pais": 13,
+      "descripcion_breve": "Entidad benevolente que asiste y protege a los niños con magia bondadosa.",
+      "descripcion_detallada": "El Hada Madrina es una figura del folclore francés y europeo, un ser mágico de apariencia femenina que actúa como protectora y guía de los niños. Aparece en momentos de necesidad para conceder dones mágicos, ofrecer consejo o proteger de peligros. Su origen se remonta a las Parcas y ninfas de la mitología clásica, y es especialmente conocida por su papel en cuentos como La Cenicienta.",
+      "pais": 12,
       "arquetipo": 5
     }
   },
@@ -1483,9 +1468,9 @@
     "pk": 92,
     "fields": {
       "nombre": "Ángel de la Guarda",
-      "descripcion_breve": "Ser celestial asignado a cada niño para guiarlo, protegerlo y alejarlo del peligro.",
-      "descripcion_detallada": "",
-      "pais": 14,
+      "descripcion_breve": "Protector espiritual asignado a cada niño para guiarlo y mantenerlo a salvo.",
+      "descripcion_detallada": "El Ángel de la Guarda es una creencia presente en la tradición cristiana y especialmente arraigada en la cultura española. Se considera que cada niño tiene un ángel asignado desde su nacimiento que lo protege de peligros físicos y espirituales, lo guía en sus decisiones y vela por su sueño. La oración al ángel de la guarda es una de las primeras que aprenden los niños en España.",
+      "pais": 6,
       "arquetipo": 5
     }
   },
@@ -1494,9 +1479,9 @@
     "pk": 93,
     "fields": {
       "nombre": "Ratón Pérez",
-      "descripcion_breve": "Pequeño ratón que recoge los dientes de leche caídos y deja monedas o regalos a cambio.",
-      "descripcion_detallada": "",
-      "pais": 7,
+      "descripcion_breve": "Pequeño ratón que recoge los dientes de leche de los niños bajo la almohada.",
+      "descripcion_detallada": "El Ratón Pérez es un personaje del folclore infantil hispano creado por el escritor Luis Coloma para el rey Alfonso XIII. Es un pequeño ratón que vive en una caja de galletas y visita las casas por la noche para recoger los dientes de leche que los niños colocan bajo la almohada, dejando a cambio un regalo o moneda. Es una de las tradiciones infantiles más queridas de España e Hispanoamérica.",
+      "pais": 6,
       "arquetipo": 4
     }
   },
@@ -1505,9 +1490,9 @@
     "pk": 94,
     "fields": {
       "nombre": "Sandman",
-      "descripcion_breve": "Ser misterioso que arroja arena mágica en los ojos de los niños para inducir sueños placenteros.",
-      "descripcion_detallada": "",
-      "pais": 3,
+      "descripcion_breve": "Duende de los sueños que espolvorea arena mágica para que los niños duerman profundamente.",
+      "descripcion_detallada": "El Sandman es una figura del folclore del norte de Europa, especialmente popular en Inglaterra y Alemania. Es un ser mágico que visita a los niños por la noche y espolvorea arena mágica sobre sus ojos para inducirles sueños maravillosos y un sueño profundo y reparador. La tradición dice que la arenilla en los ojos al despertar es el residuo de la visita del Sandman.",
+      "pais": 5,
       "arquetipo": 5
     }
   },
@@ -1516,10 +1501,10 @@
     "pk": 95,
     "fields": {
       "nombre": "Jack Frost",
-      "descripcion_breve": "Espíritu invernal travieso que pinta escarcha en los vidrios y juega con los niños en la nieve.",
-      "descripcion_detallada": "",
+      "descripcion_breve": "Personificación del hielo que crea patrones de escarcha y juega con los niños en invierno.",
+      "descripcion_detallada": "Jack Frost es una personificación del clima invernal del folclore nórdico y anglosajón. Se le describe como un duende o espíritu del invierno que pinta los patrones de escarcha en las ventanas durante las noches frías y deja huellas heladas en el suelo. Aunque es travieso y puede causar resfriados, su relación con los niños es juguetona, invitándolos a disfrutar del invierno y sus maravillas heladas.",
       "pais": 10,
-      "arquetipo": 7
+      "arquetipo": 4
     }
   },
   {
@@ -1527,9 +1512,9 @@
     "pk": 96,
     "fields": {
       "nombre": "Nisse",
-      "descripcion_breve": "Gnomo navideño que protege las granjas y deja regalos a los niños que se han portado bien.",
-      "descripcion_detallada": "",
-      "pais": 10,
+      "descripcion_breve": "Espíritu de granjas danés que protege a los niños y animales del hogar campesino.",
+      "descripcion_detallada": "El Nisse es un ser del folclore danés y escandinavo, similar al Tomte sueco, un pequeño duende barbudo con gorro rojo que habita en las granjas y cuida de los animales y las personas. Protege especialmente a los niños pequeños, velando por su seguridad durante la noche. A cambio, la familia debe ofrecerle un plato de gachas con mantequilla en Navidad, o el Nisse se volverá travieso.",
+      "pais": 11,
       "arquetipo": 5
     }
   },
@@ -1538,10 +1523,10 @@
     "pk": 97,
     "fields": {
       "nombre": "Korrigan",
-      "descripcion_breve": "Hada bretona que danza en círculos de piedra y cambia bebés humanos por criaturas feéricas.",
-      "descripcion_detallada": "",
-      "pais": 13,
-      "arquetipo": 6
+      "descripcion_breve": "Seres de las fuentes y bosques bretones que encantan a los niños con su música.",
+      "descripcion_detallada": "Los Korrigan son criaturas del folclore de Bretaña, pequeños seres feéricos que habitan cerca de fuentes, dólmenes y menhires. Tienen una apariencia anciana pero juvenil, y tocan música tan hermosa que los niños no pueden resistirse a seguirla. Quienes los siguen son llevados a su mundo subterráneo, donde el tiempo transcurre de manera diferente y pueden desaparecer durante años.",
+      "pais": 14,
+      "arquetipo": 4
     }
   },
   {
@@ -1549,9 +1534,9 @@
     "pk": 98,
     "fields": {
       "nombre": "Lutín",
-      "descripcion_breve": "Duende de las encrucijadas que protege a los niños viajeros señalándoles el camino seguro.",
-      "descripcion_detallada": "",
-      "pais": 13,
+      "descripcion_breve": "Duende doméstico francés que ayuda en las tareas del hogar y cuida a los niños.",
+      "descripcion_detallada": "El Lutín es una criatura del folclore francés, un pequeño duende doméstico similar al Brownie escocés o al Trasgu español. Habita en las casas y durante la noche realiza tareas domésticas, cuida a los niños y protege el hogar de los malos espíritus. Es sensible al trato que recibe: si la familia es agradecida, el Lutín ayuda diligentemente; si se le falta el respeto, se vuelve travieso.",
+      "pais": 12,
       "arquetipo": 5
     }
   },
@@ -1560,9 +1545,9 @@
     "pk": 99,
     "fields": {
       "nombre": "Kobold",
-      "descripcion_breve": "Espíritu del hogar que ayuda en las tareas domésticas y protege a los niños de accidentes.",
-      "descripcion_detallada": "",
-      "pais": 3,
+      "descripcion_breve": "Espíritu del hogar alemán que protege a los niños y trae buena suerte a la casa.",
+      "descripcion_detallada": "El Kobold es un espíritu doméstico del folclore alemán que habita en los hogares y protege a sus habitantes, especialmente a los niños. Se le describe como un ser pequeño y barbudo con gorro puntiagudo. Realiza tareas domésticas durante la noche y cuida de que los niños estén seguros. A cambio, solo pide un poco de respeto y ofrendas de comida. Si se le enfada, puede volerse destructivo.",
+      "pais": 13,
       "arquetipo": 5
     }
   },
@@ -1571,9 +1556,9 @@
     "pk": 100,
     "fields": {
       "nombre": "Duende del Hogar",
-      "descripcion_breve": "Pequeño ser doméstico que cuida de los niños mientras duermen y arregla juguetes rotos.",
-      "descripcion_detallada": "",
-      "pais": 7,
+      "descripcion_breve": "Guardián de la chimenea alemán que vela por los niños y mantiene el fuego encendido.",
+      "descripcion_detallada": "El Duende del Hogar es una criatura del folclore alemán que habita en los rincones cercanos a la chimenea. Su misión es mantener el fuego del hogar encendido y proteger a los niños de los peligros de la noche y el frío. Se dice que susurra canciones de cuna a los bebés para que duerman plácidamente. Las familias alemanas solían dejar un poco de pan cerca del fuego como ofrenda para este benévolo guardián.",
+      "pais": 13,
       "arquetipo": 5
     }
   }

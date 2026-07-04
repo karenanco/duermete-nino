@@ -2,6 +2,9 @@
 set -o errexit
 
 pip install -r requirements.txt
+
 python manage.py collectstatic --no-input
 python manage.py migrate
-python manage.py loaddata duermete_nino/fixtures/folclore_inicial.json
+
+# Cargar datos iniciales (100 seres folclóricos)
+python manage.py loaddata folclore_inicial.json

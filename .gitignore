@@ -1,6 +1,25 @@
-venv/
+# Django
 *.pyc
 __pycache__/
-*.sqlite3
-.env
+*.pyo
+db.sqlite3
+media/
 staticfiles/
+
+# Env
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project
+docs/_build/

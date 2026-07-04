@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-950 text-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los 5 Arquetipos - Duérmete Niño</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .stars-bg {
+            background-image: radial-gradient(white 1px, transparent 0), radial-gradient(white 1px, transparent 0);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            opacity: 0.08;
+        }
+    </style>
+</head>
+<body class="min-h-full flex flex-col bg-slate-950">
+    <div class="fixed inset-0 stars-bg pointer-events-none"></div>
+
+    <header class="relative z-10 w-full border-b border-gray-800 bg-gray-900/60 backdrop-blur-md px-6 py-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-xl font-bold tracking-wider text-indigo-400 font-serif">DUÉRMETE NIÑO</h1>
+            <p class="text-xs text-gray-400">Cartografía analítica del folclore infantil mundial</p>
+        </div>
+        <nav class="flex space-x-6 text-sm font-medium">
+            <a href="/" class="text-gray-400 hover:text-gray-200 transition">El Globo</a>
+            <a href="/arquetipos/" class="text-indigo-400 hover:text-indigo-300 transition">Los 5 Arquetipos</a>
+            <a href="/acerca-de/" class="text-gray-400 hover:text-gray-200 transition">Acerca del Proyecto</a>
+        </nav>
+    </header>
+
+    <main class="relative z-10 flex-1 max-w-5xl mx-auto w-full px-6 py-12">
+        <div class="mb-12 text-center">
+            <h2 class="text-4xl font-bold font-serif text-indigo-300 mb-4">Los 5 Arquetipos Universales</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">A través del análisis transcultural del folclore infantil, emergen patrones arquetípicos que se repiten en culturas geográficamente distantes. Estos son los cinco grandes arquetipos identificados en nuestra cartografía:</p>
+        </div>
+
+        <div class="grid gap-8">
+            <!-- Arquetipo 1: Devoradora -->
+            <div class="p-6 rounded-2xl bg-gray-900/60 border border-red-900/30 hover:border-red-500/40 transition-all duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="w-16 h-16 rounded-full bg-red-950 border border-red-800 flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">🐉</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-red-300 font-serif">La Devoradora de Niños</h3>
+                        <p class="text-gray-400 text-sm mt-1">El monstruo que devora, consume o se alimenta de infantes</p>
+                        <p class="text-gray-300 mt-3">Figuras como Grýla, Baba Yaga, Wendigo, Penanggalan y la Patasola representan este arquetipo universal del miedo primigenio a ser devorado. Estas criaturas suelen habitar en los límites de lo conocido: bosques oscuros, cuevas profundas o las afueras del pueblo, y son utilizadas tradicionalmente para prevenir que los niños deambulen solos o desobedezcan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arquetipo 2: Secuestrador -->
+            <div class="p-6 rounded-2xl bg-gray-900/60 border border-amber-900/30 hover:border-amber-500/40 transition-all duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="w-16 h-16 rounded-full bg-amber-950 border border-amber-800 flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">👻</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-amber-300 font-serif">El Secuestrador / Castigador</h3>
+                        <p class="text-gray-400 text-sm mt-1">Entidad que rapta, castiga o se lleva a los niños desobedientes</p>
+                        <p class="text-gray-300 mt-3">El Hombre del Saco, Krampus, Coco, el Yasy Yateré y Namahage forman parte de este arquetipo. Son figuras disciplinarias que aparecen cuando los niños se portan mal, no duermen o no obedecen a sus padres. Su función es social: reforzar las normas culturales a través del miedo a ser "llevado" por una entidad externa.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arquetipo 3: Espíritu Acuático -->
+            <div class="p-6 rounded-2xl bg-gray-900/60 border border-cyan-900/30 hover:border-cyan-500/40 transition-all duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="w-16 h-16 rounded-full bg-cyan-950 border border-cyan-800 flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">🌊</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-cyan-300 font-serif">El Espíritu Acuático que Atrae Niños</h3>
+                        <p class="text-gray-400 text-sm mt-1">Seres de ríos, lagos y mares que atraen o arrastran a los infantes</p>
+                        <p class="text-gray-300 mt-3">La Llorona, Jenny Greenteeth, Kappa, Mami Wata y el Bunyip representan el peligro de las aguas. Estos espíritus suelen tener voces o cantos hipnóticos que atraen a los niños hacia cuerpos de agua, donde pueden ahogarse o desaparecer. Advierte del peligro real de ríos, estanques y mares.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arquetipo 4: Niño Fantasma -->
+            <div class="p-6 rounded-2xl bg-gray-900/60 border border-purple-900/30 hover:border-purple-500/40 transition-all duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="w-16 h-16 rounded-full bg-purple-950 border border-purple-800 flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">👶</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-purple-300 font-serif">El Niño Fantasma / Espíritu Infantil</h3>
+                        <p class="text-gray-400 text-sm mt-1">Almas de niños que permanecen en el mundo terrenal</p>
+                        <p class="text-gray-300 mt-3">Zashiki-warashi, Abiku, Toyol y el Ratón Pérez forman parte de este arquetipo. Incluye tanto espíritus benevolentes que traen suerte a los hogares como aquellos que buscan completar un ciclo pendiente. También abarca figuras infantiles mágicas que interactúan con los niños vivos de forma lúdica o simbólica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arquetipo 5: Protector -->
+            <div class="p-6 rounded-2xl bg-gray-900/60 border border-indigo-900/30 hover:border-indigo-500/40 transition-all duration-300">
+                <div class="flex items-start gap-4">
+                    <div class="w-16 h-16 rounded-full bg-indigo-950 border border-indigo-800 flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">🛡️</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-300 font-serif">El Protector del Hogar</h3>
+                        <p class="text-gray-400 text-sm mt-1">Entidades benevolentes que cuidan y velan por los niños</p>
+                        <p class="text-gray-300 mt-3">Domovói, Tomte, Brownie, Ángel de la Guarda, Hada Madrina y Sandman representan la contraparte protectora. Estos seres premian el buen comportamiento, protegen contra peligros nocturnos, traen sueños agradables y reconfortan a los niños en la oscuridad. Son figuras esenciales para el equilibrio emocional del folclore infantil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-12 p-6 rounded-2xl bg-gray-900/30 border border-gray-800">
+            <h3 class="text-lg font-bold text-gray-300 mb-2">Metodología</h3>
+            <p class="text-sm text-gray-500">Esta clasificación arquetípica emerge del análisis transcultural de más de 100 figuras del folclore infantil global, identificando patrones recurrentes en las narrativas de protección, disciplina y miedo utilizadas en diferentes culturas a lo largo de la historia.</p>
+        </div>
+    </main>
+
+    <footer class="relative z-10 text-center text-[10px] text-gray-600 border-t border-gray-800 py-4">
+        "Duérmete Niño" © 2026 · Cartografía del Folclore Infantil Global
+    </footer>
+</body>
+</html>

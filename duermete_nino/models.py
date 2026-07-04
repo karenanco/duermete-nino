@@ -2,8 +2,8 @@ from django.db import models
 
 
 class Arquetipo(models.Model):
-    nombre = models.CharField(max_length=100, unique=True)
-    descripcion = models.TextField(blank=True)
+    nombre = models.CharField(max_length=100, unique=True, verbose_name="Nombre del arquetipo")
+    descripcion = models.TextField(blank=True, verbose_name="Descripción")
 
     class Meta:
         verbose_name = "Arquetipo"
@@ -13,21 +13,23 @@ class Arquetipo(models.Model):
     def __str__(self):
         return self.nombre
 
+    def descripcion_corta(self):
+        return self.descripcion[:80] + '...' if len(self.descripcion) > 80 else self.descripcion
+    descripcion_corta.short_description = "Descripción"
+
 
 class Pais(models.Model):
     class Continentes(models.TextChoices):
-        EUROPA = "EU", "Europa"
-        AMERICA_NORTE = "NA", "Norteamérica"
-        AMERICA_LATINA = "LA", "América Latina"
-        ASIA = "AS", "Asia"
-        AFRICA = "AF", "África"
-        OCEANIA = "OC", "Oceanía"
+        AFRICA = 'AF', 'África'
+        ASIA = 'AS', 'Asia'
+        EUROPA = 'EU', 'Europa'
+        NORTEAMERICA = 'NA', 'Norteamérica'
+        OCEANIA = 'OC', 'Oceanía'
+        SURAMERICA = 'SA', 'Sudamérica'
 
-    nombre = models.CharField(max_length=100, db_index=True)
-    codigo_iso = models.CharField(
-        max_length=3, unique=True, help_text="Código ISO 3166-1 alpha-3"
-    )
-    continente = models.CharField(max_length=2, choices=Continentes.choices)
+    nombre = models.CharField(max_length=100, verbose_name="Nombre del país")
+    codigo_iso = models.CharField(max_length=3, unique=True, verbose_name="Código ISO")
+    continente = models.CharField(max_length=2, choices=Continentes.choices, verbose_name="Continente")
 
     class Meta:
         verbose_name = "País"
@@ -39,20 +41,16 @@ class Pais(models.Model):
 
 
 class SerFolclorico(models.Model):
-    nombre = models.CharField(max_length=200)
-    descripcion_breve = models.TextField(help_text="Resumen de una línea")
-    descripcion_detallada = models.TextField(blank=True)
-    pais = models.ForeignKey(
-        Pais, on_delete=models.CASCADE, related_name="seres"
-    )
-    arquetipo = models.ForeignKey(
-        Arquetipo, on_delete=models.SET_NULL, null=True, blank=True, related_name="seres"
-    )
+    nombre = models.CharField(max_length=200, verbose_name="Nombre del ser")
+    descripcion_breve = models.TextField(max_length=300, verbose_name="Descripción breve")
+    descripcion_detallada = models.TextField(blank=True, verbose_name="Descripción detallada")
+    pais = models.ForeignKey(Pais, on_delete=models.CASCADE, related_name='seres', verbose_name="País de origen")
+    arquetipo = models.ForeignKey(Arquetipo, on_delete=models.SET_NULL, null=True, blank=True, related_name='seres', verbose_name="Arquetipo")
 
     class Meta:
         verbose_name = "Ser Folclórico"
         verbose_name_plural = "Seres Folclóricos"
-        ordering = ['nombre']
+        ordering = ['pais__nombre', 'nombre']
 
     def __str__(self):
-        return self.nombre
+        return f"{self.nombre} ({self.pais.nombre})"

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es" class="h-full bg-gray-950 text-gray-100">
+<html lang="es" class="h-full bg-slate-950 text-gray-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ titulo }}</title>
+    <title>Duérmete Niño - Universo Folclórico de la Infancia</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
         .stars-bg {
@@ -34,8 +34,8 @@
         
         <div class="flex-1 relative flex items-center justify-center bg-radial from-gray-900 to-gray-950 p-4">
             <div class="text-center">
-                <div id="globo" class="w-80 h-80 md:w-120 md:h-120 rounded-full border border-gray-800 shadow-[0_0_80px_rgba(55,48,163,0.15)] bg-slate-900 flex items-center justify-center relative cursor-grab active:cursor-grabbing transition-transform duration-500 hover:scale-102">
-                    <span class="text-gray-500 text-sm font-mono">[Planeta Tierra Interactivo con Países Activos]</span>
+                <div id="globe-container" class="w-80 h-80 md:w-120 md:h-120 rounded-full border border-gray-800 shadow-[0_0_80px_rgba(55,48,163,0.15)] bg-slate-900 flex items-center justify-center relative cursor-grab active:cursor-grabbing transition-transform duration-500 hover:scale-102">
+                    <span class="text-gray-500 text-sm font-mono">[Planeta Tierra Interactivo]</span>
                     
                     <div class="absolute bottom-6 bg-gray-950/80 border border-gray-800 px-3 py-1 rounded-full text-xs text-indigo-300">
                         Arrastra para rotar · Haz clic en un país
@@ -60,24 +60,17 @@
                     </div>
 
                     <div id="lista-criaturas" class="space-y-4">
-                        <!-- Las criaturas se renderizan via JavaScript -->
+                        <!-- Las criaturas se cargarán dinámicamente vía JS -->
                     </div>
                 </div>
             </div>
 
             <footer class="text-[10px] text-gray-600 text-center border-t border-gray-800 pt-4 mt-4">
-                "Duérmete Niño" © 2026 · Mitos Infantiles Globales
+                "Duérmete Niño" © 2026 · Cartografía del Folclore Infantil Global
             </footer>
         </section>
     </main>
 
-    <script>
-        // JavaScript para interactividad del mapa
-        document.addEventListener('DOMContentLoaded', function() {
-            // Por ahora, funcionalidad placeholder
-            console.log('Duérmete Niño - Mapa interactivo del folclore infantil');
-        });
-    </script>
-
+    <script src="/static/js/mapa.js"></script>
 </body>
 </html>

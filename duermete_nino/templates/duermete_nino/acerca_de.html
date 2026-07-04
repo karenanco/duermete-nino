@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-950 text-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca del Proyecto - Duérmete Niño</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .stars-bg {
+            background-image: radial-gradient(white 1px, transparent 0), radial-gradient(white 1px, transparent 0);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            opacity: 0.08;
+        }
+    </style>
+</head>
+<body class="min-h-full flex flex-col bg-slate-950">
+    <div class="fixed inset-0 stars-bg pointer-events-none"></div>
+
+    <header class="relative z-10 w-full border-b border-gray-800 bg-gray-900/60 backdrop-blur-md px-6 py-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-xl font-bold tracking-wider text-indigo-400 font-serif">DUÉRMETE NIÑO</h1>
+            <p class="text-xs text-gray-400">Cartografía analítica del folclore infantil mundial</p>
+        </div>
+        <nav class="flex space-x-6 text-sm font-medium">
+            <a href="/" class="text-gray-400 hover:text-gray-200 transition">El Globo</a>
+            <a href="/arquetipos/" class="text-gray-400 hover:text-gray-200 transition">Los 5 Arquetipos</a>
+            <a href="/acerca-de/" class="text-indigo-400 hover:text-indigo-300 transition">Acerca del Proyecto</a>
+        </nav>
+    </header>
+
+    <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 py-12">
+        <div class="mb-12 text-center">
+            <h2 class="text-4xl font-bold font-serif text-indigo-300 mb-4">Acerca del Proyecto</h2>
+            <p class="text-gray-400">"Duérmete Niño" es una plataforma interactiva de cartografía del folclore infantil mundial.</p>
+        </div>
+
+        <div class="grid gap-8">
+            <div class="p-6 rounded-2xl bg-gray-900/40 border border-gray-800">
+                <h3 class="text-xl font-bold text-indigo-300 mb-3">🎯 Objetivo</h3>
+                <p class="text-gray-300">Visualizar de forma geoespacial el folclore global enfocado en la infancia, evidenciando los arquetipos universales que comparten diferentes culturas geográficamente distantes.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-gray-900/40 border border-gray-800">
+                <h3 class="text-xl font-bold text-indigo-300 mb-3">🔍 Metodología</h3>
+                <p class="text-gray-300">A través del análisis comparativo de más de 100 criaturas, deidades y espíritus del folclore infantil de todos los continentes, hemos identificado 5 arquetipos estructurales que se repiten transversalmente en las narrativas de protección, disciplina y miedo utilizadas por diferentes culturas.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-gray-900/40 border border-gray-800">
+                <h3 class="text-xl font-bold text-indigo-300 mb-3">🌍 Cobertura Geográfica</h3>
+                <p class="text-gray-300">El proyecto abarca más de 40 países y territorios en los 6 continentes habitados, con especial énfasis en Europa, América Latina, Asia, África, Norteamérica y Oceanía.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-gray-900/40 border border-gray-800">
+                <h3 class="text-xl font-bold text-indigo-300 mb-3">📚 Stack Tecnológico</h3>
+                <ul class="text-gray-300 space-y-2">
+                    <li>• <strong>Backend:</strong> Django 5 (Python) con vistas basadas en funciones</li>
+                    <li>• <strong>Frontend:</strong> Tailwind CSS v4 via CDN, Vanilla JavaScript</li>
+                    <li>• <strong>API:</strong> Endpoints REST JSON para consumo del mapa interactivo</li>
+                    <li>• <strong>Despliegue:</strong> Render (PaaS)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="relative z-10 text-center text-[10px] text-gray-600 border-t border-gray-800 py-4">
+        "Duérmete Niño" © 2026 · Cartografía del Folclore Infantil Global
+    </footer>
+</body>
+</html>

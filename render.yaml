@@ -3,25 +3,13 @@ services:
     name: duermete-nino-app
     env: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn duermete_nino_project.wsgi:application --bind 0.0.0.0:$PORT"
-    healthCheckPath: /
+    startCommand: "gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.5
       - key: DJANGO_SETTINGS_MODULE
-        value: duermete_nino_project.settings
-      - key: SECRET_KEY
-        generateValue: true
-      - key: ALLOWED_HOSTS
-        value: ".onrender.com,localhost,127.0.0.1"
-      - key: DEBUG
-        value: "False"
-      - key: DATABASE_URL
-        fromDatabase:
-          name: duermete-nino-db
-          property: connectionString
-
-databases:
-  - name: duermete-nino-db
-    databaseName: duermete_nino
-    plan: free
+        value: config.settings
+      - key: DJANGO_SECRET_KEY
+        sync: false
+      - key: DJANGO_ALLOWED_HOSTS
+        value: localhost,127.0.0.1,.onrender.com

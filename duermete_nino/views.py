@@ -4,9 +4,7 @@ from .models import SerFolclorico, Pais, Arquetipo
 
 
 def home_view(request):
-    """
-    Renderiza la interfaz principal del proyecto: El planeta Tierra interactivo con el fondo oscuro.
-    """
+    """Renderiza la interfaz principal: el planeta Tierra interactivo con fondo oscuro."""
     context = {
         'titulo': 'Duérmete Niño - Mapa interactivo del folclore infantil mundial'
     }
@@ -14,25 +12,20 @@ def home_view(request):
 
 
 def arquetipos_lista_view(request):
-    """
-    Muestra un desglose educativo e histórico de los grandes arquetipos transversales identificados.
-    """
+    """Muestra un desglose educativo e histórico de los grandes arquetipos."""
     arquetipos = Arquetipo.objects.all()
     return render(request, 'duermete_nino/arquetipos.html', {'arquetipos': arquetipos})
 
 
 def acerca_de_view(request):
-    """
-    Página informativa sobre el proyecto, metodología y objetivos académicos.
-    """
+    """Página informativa sobre el proyecto, metodología y objetivos académicos."""
     return render(request, 'duermete_nino/acerca_de.html')
 
 
-# VISTAS DE API (JSON)
+# API endpoints (JSON)
+
 def api_lista_seres(request):
-    """
-    Devuelve la lista simplificada de todos los seres para posicionamiento o búsqueda inicial.
-    """
+    """Devuelve la lista simplificada de todos los seres para posicionamiento o búsqueda inicial."""
     seres = SerFolclorico.objects.select_related('pais', 'arquetipo').all()
     data = [{
         'id': s.id,
@@ -47,12 +40,10 @@ def api_lista_seres(request):
 
 
 def api_seres_por_pais(request, codigo_iso):
-    """
-    Devuelve los seres mitológicos específicos de un país al hacer clic sobre él en el mapa.
-    """
+    """Devuelve los seres mitológicos de un país al hacer clic en el mapa."""
     pais = get_object_or_404(Pais, codigo_iso__iexact=codigo_iso)
     seres = SerFolclorico.objects.filter(pais=pais).select_related('arquetipo')
-    
+
     data = {
         'pais': pais.nombre,
         'continente': pais.get_continente_display(),
@@ -68,13 +59,8 @@ def api_seres_por_pais(request, codigo_iso):
 
 
 def api_detalle_ser(request, ser_id):
-    """
-    Devuelve la ficha completa y detallada de un ser folclórico específico.
-    """
-    ser = get_object_or_404(
-        SerFolclorico.objects.select_related('pais', 'arquetipo'),
-        id=ser_id
-    )
+    """Devuelve la ficha completa y detallada de un ser folclórico específico."""
+    ser = get_object_or_404(SerFolclorico, id=ser_id)
     data = {
         'id': ser.id,
         'nombre': ser.nombre,
